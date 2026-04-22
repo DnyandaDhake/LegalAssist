@@ -1,7 +1,7 @@
 import os
 
 MONGO_URI = os.environ.get("MONGO_URI")
-SECRET_KEY = os.environ.get("JWT_SECRET", "1101724")
+SECRET_KEY = os.environ.get("JWT_SECRET")
 
 UPLOAD_FOLDER = os.environ.get("UPLOAD_FOLDER", "./uploads")
 
