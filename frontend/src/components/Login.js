@@ -282,7 +282,7 @@ const Login = () => {
                     variant="body2"
                     className="premium-link"
                   >
-                    New to LegalAI? Create your account
+                    New to LegalAssist? Create your account
                   </Link>
                 </Box>
               </Box>
