@@ -45,7 +45,7 @@ const Login = () => {
   return regex.test(email);
 };
 
-  
+  const API = process.env.REACT_APP_API_URL;
   const handleSubmit = async (e) => {
   e.preventDefault();
   setError('');
@@ -60,7 +60,7 @@ const Login = () => {
     
 
     try {
-      const response = await fetch('http://localhost:5000/login', {
+      const response = await fetch(`${API}/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

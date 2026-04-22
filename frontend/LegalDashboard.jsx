@@ -8,7 +8,7 @@ function LegalDashboard() {
   });
 
   useEffect(() => {
-    fetch("http://localhost:5000/dashboard/kpi", {
+    fetch("http://:5000/dashboard/kpi", {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("token")
       }

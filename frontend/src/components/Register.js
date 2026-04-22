@@ -45,6 +45,7 @@ const Register = () => {
   const navigate = useNavigate();
 
   const steps = ['Personal Info', 'Security', 'Complete'];
+  const API = process.env.REACT_APP_API_URL;
 
   const isValidEmail = (email) => {
   const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -111,7 +112,7 @@ const isValidContact = (contact) => {
     if (activeStep === 2) {
       setLoading(true);
       try {
-        const response = await fetch('http://localhost:5000/register', {
+        const response = await fetch(`${API}/register`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

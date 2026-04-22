@@ -18,9 +18,10 @@ const LegalDashboard = () => {
   });
 
   const [loading, setLoading] = useState(true);
+  const API = process.env.REACT_APP_API_URL;
 
   useEffect(() => {
-    fetch("http://localhost:5000/dashboard/kpi", {
+    fetch(`${API}/dashboard/kpi`, {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("token")
       }

@@ -59,12 +59,13 @@ const Profile = () => {
   const [openSnackbar, setOpenSnackbar] = useState(false);
 
   const token = localStorage.getItem('token');
+  const API = process.env.REACT_APP_API_URL;
 
   useEffect(() => {
     const fetchProfile = async () => {
       setInitialLoading(true);
       try {
-        const response = await fetch("http://localhost:5000/profile", {
+        const response = await fetch(`${API}/profile`, {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("token")
           }
@@ -106,7 +107,7 @@ const Profile = () => {
     setMessage({ type: '', text: '' });
 
     try {
-      await fetch("http://localhost:5000/profile", {
+      await fetch(`${API}/profile`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

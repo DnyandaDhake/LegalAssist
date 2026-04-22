@@ -27,10 +27,11 @@ const History = () => {
   const [snackbar, setSnackbar] = useState({ open: false, msg: '', type: 'info' });
 
   const token = localStorage.getItem('token');
+  const API = process.env.REACT_APP_API_URL;
 
   const fetchHistory = async () => {
     try {
-      const res = await fetch('http://localhost:5000/history', {
+      const res = await fetch(`${API}/history`, {
         headers: { Authorization: `Bearer ${token}` }
       });
       const data = await res.json();
@@ -47,7 +48,7 @@ const History = () => {
   }, []);
 
   const handleDownload = async (docId) => {
-    const res = await fetch(`http://localhost:5000/download/${docId}`, {
+    const res = await fetch(`${API}/download/${docId}`, {
       headers: { Authorization: `Bearer ${token}` }
     });
     const blob = await res.blob();
@@ -62,7 +63,7 @@ const History = () => {
   const handleDelete = async (docId) => {
     if (!window.confirm('Delete this document permanently?')) return;
 
-    await fetch(`http://localhost:5000/delete/${docId}`, {
+    await fetch(`${API}/delete/${docId}`, {
       method: 'DELETE',
       headers: { Authorization: `Bearer ${token}` }
     });

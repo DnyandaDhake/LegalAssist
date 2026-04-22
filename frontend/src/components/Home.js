@@ -51,6 +51,7 @@ const Home = () => {
 
   const user = JSON.parse(localStorage.getItem('user') || '{}');
   const token = localStorage.getItem('token');
+  const API = process.env.REACT_APP_API_URL;
 
   // Apply dark mode class to container
   useEffect(() => {
@@ -73,7 +74,7 @@ const Home = () => {
     try {
       setIsProcessing(true);
 
-      const response = await fetch(`http://localhost:5000/result/${docId}`, {
+      const response = await fetch(`${API}/result/${docId}`, {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -144,7 +145,7 @@ const Home = () => {
     formData.append('file', selectedFile);
 
     try {
-      const response = await fetch('http://localhost:5000/upload', {
+      const response = await fetch(`${API}/upload`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`
@@ -172,7 +173,7 @@ const Home = () => {
   const pollForResults = async (docId) => {
     const checkStatus = async () => {
       try {
-        const statusResponse = await fetch(`http://localhost:5000/status/${docId}`, {
+        const statusResponse = await fetch(`${API}/status/${docId}`, {
           headers: {
             'Authorization': `Bearer ${token}`
           }
@@ -201,7 +202,7 @@ const Home = () => {
 
   const fetchResults = async (docId) => {
     try {
-      const response = await fetch(`http://localhost:5000/result/${docId}`, {
+      const response = await fetch(`${API}/result/${docId}`, {
         headers: {
           'Authorization': `Bearer ${token}`
         }
@@ -235,8 +236,7 @@ const Home = () => {
     if (!currentDocId) return;
 
     try {
-      const response = await fetch(
-        `http://localhost:5000/download/${currentDocId}`,
+      const response = await fetch(`${API}/download/${currentDocId}`,
         {
           method: 'GET',
           headers: {
