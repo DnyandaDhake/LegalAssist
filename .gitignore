@@ -1,0 +1,36 @@
+# Backend
+backend/venv/
+backend/__pycache__/
+backend/uploads/
+backend/reports/
+backend/.pytest_cache/
+backend/.env
+backend/models/
+backend/evaluation/__pycache__/
+backend/tests/
+
+*.safetensors
+*.bin
+*.pyc
+
+# Frontend
+frontend/node_modules/
+frontend/ml_training/
+frontend/playwright-report/
+frontend/test-results/
+frontend/tests/
+frontend/.env
+frontend/build/
+frontend/dist/
+
+# Documents / local files
+Documents/*.pdf
+frontend/Rental_aggrement_2.pdf
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip

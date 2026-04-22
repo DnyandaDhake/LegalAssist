@@ -1,0 +1,3752 @@
+[
+  {
+    "id": 1,
+    "risk_keyword": "security deposit",
+    "risk_name": "High Security Deposit",
+    "risk_type": "financial",
+    "severity": "high",
+    "clause_example": "Licensee shall pay security deposit equivalent to 6 months license fee",
+    "problem": "Too much money locked as security",
+    "what_to_do": [
+      "Request reduction to 3 months rent",
+      "Ask for interest on security deposit",
+      "Specify refund timeline (15 days after vacating)",
+      "Add penalty for late refund"
+    ]
+  },
+  {
+    "id": 2,
+    "risk_keyword": "license fee increase",
+    "risk_name": "Uncontrolled Rent Increase",
+    "risk_type": "financial",
+    "severity": "high",
+    "clause_example": "Licensor may increase license fee by 15% annually",
+    "problem": "Rent can increase too much every year",
+    "what_to_do": [
+      "Cap increase at 5% annually",
+      "Link to Consumer Price Index",
+      "Require 60 days written notice",
+      "Add right to vacate if increase exceeds 10%"
+    ]
+  },
+  {
+    "id": 3,
+    "risk_keyword": "lock-in period",
+    "risk_name": "Long Lock-in Period",
+    "risk_type": "operational",
+    "severity": "high",
+    "clause_example": "Minimum lock-in period of 36 months",
+    "problem": "Cannot leave for 3 years even if needed",
+    "what_to_do": [
+      "Reduce to 11 months (standard)",
+      "Add early exit with 2 months notice",
+      "Include job transfer/relocation exception",
+      "Add mutual break clause after 12 months"
+    ]
+  },
+  {
+    "id": 4,
+    "risk_keyword": "maintenance charges",
+    "risk_name": "Unclear Maintenance",
+    "risk_type": "financial",
+    "severity": "medium",
+    "clause_example": "Licensee shall pay all maintenance charges",
+    "problem": "Unlimited maintenance costs",
+    "what_to_do": [
+      "Define maintenance charges clearly",
+      "Cap annual increase at 10%",
+      "Specify what's included",
+      "Add right to verify bills"
+    ]
+  },
+  {
+    "id": 5,
+    "risk_keyword": "electricity water charges",
+    "risk_name": "Utility Charge Risks",
+    "risk_type": "financial",
+    "severity": "medium",
+    "clause_example": "Licensee shall pay all electricity and water charges",
+    "problem": "Unlimited utility bills",
+    "what_to_do": [
+      "Request submeter installation",
+      "Add clause for estimated billing adjustment",
+      "Specify payment timeline",
+      "Add right to verify meter readings"
+    ]
+  },
+  {
+    "id": 6,
+    "risk_keyword": "property tax",
+    "risk_name": "Property Tax Liability",
+    "risk_type": "financial",
+    "severity": "high",
+    "clause_example": "Licensee shall pay property tax",
+    "problem": "Tenant paying owner's tax",
+    "what_to_do": [
+      "Remove tenant payment obligation",
+      "Limit to municipal taxes only",
+      "Add verification right",
+      "Specify tax is owner's responsibility"
+    ]
+  },
+  {
+    "id": 7,
+    "risk_keyword": "municipal taxes",
+    "risk_name": "Municipal Tax Confusion",
+    "risk_type": "financial",
+    "severity": "medium",
+    "clause_example": "Licensee shall pay all municipal taxes",
+    "problem": "Paying taxes that should be owner's duty",
+    "what_to_do": [
+      "Clarify only water/electricity taxes",
+      "Exclude property tax",
+      "Add verification clause",
+      "Limit to consumption-based charges only"
+    ]
+  },
+  {
+    "id": 8,
+    "risk_keyword": "repairs and maintenance",
+    "risk_name": "Unlimited Repair Costs",
+    "risk_type": "financial",
+    "severity": "high",
+    "clause_example": "Licensee shall bear all repair costs",
+    "problem": "Paying for all repairs including structural",
+    "what_to_do": [
+      "Limit to minor repairs (under ₹5000)",
+      "Specify owner responsible for structural",
+      "Add prior approval for major repairs",
+      "Include reimbursement process"
+    ]
+  },
+  {
+    "id": 9,
+    "risk_keyword": "painting charges",
+    "risk_name": "Painting Cost Burden",
+    "risk_type": "financial",
+    "severity": "medium",
+    "clause_example": "Licensee shall bear painting charges every 3 years",
+    "problem": "Forced to pay for repainting",
+    "what_to_do": [
+      "Remove painting obligation",
+      "Limit to fair wear and tear only",
+      "Add that painting is owner's responsibility",
+      "Specify only if damage beyond normal"
+    ]
+  },
+  {
+    "id": 10,
+    "risk_keyword": "advance rent",
+    "risk_name": "Excessive Advance Payment",
+    "risk_type": "financial",
+    "severity": "high",
+    "clause_example": "Licensee shall pay 6 months rent in advance",
+    "problem": "Too much money paid upfront",
+    "what_to_do": [
+      "Reduce to 1 month advance",
+      "Add monthly payment option",
+      "Include interest on advance amount",
+      "Specify adjustment process"
+    ]
+  },
+  {
+    "id": 11,
+    "risk_keyword": "late payment penalty",
+    "risk_name": "High Late Payment Charges",
+    "risk_type": "financial",
+    "severity": "medium",
+    "clause_example": "Late payment penalty of 5% per day",
+    "problem": "Extremely high late fees",
+    "what_to_do": [
+      "Reduce to 2% per month",
+      "Add 5-day grace period",
+      "Cap total penalty",
+      "Require written notice before charging"
+    ]
+  },
+  {
+    "id": 12,
+    "risk_keyword": "notice period",
+    "risk_name": "Unreasonable Notice Period",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "Licensee must give 90 days notice to vacate",
+    "problem": "Too long notice required",
+    "what_to_do": [
+      "Reduce to 30 days notice",
+      "Add mutual notice period",
+      "Include job transfer exception",
+      "Specify written notice requirement"
+    ]
+  },
+  {
+    "id": 13,
+    "risk_keyword": "renewal terms",
+    "risk_name": "Automatic Renewal Issues",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "Agreement auto-renews for 11 months",
+    "problem": "No choice in renewal",
+    "what_to_do": [
+      "Require mutual consent for renewal",
+      "Add 30-day notice before renewal",
+      "Specify rent terms for renewal",
+      "Include easy non-renewal process"
+    ]
+  },
+  {
+    "id": 14,
+    "risk_keyword": "subletting prohibited",
+    "risk_name": "Absolute Subletting Ban",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "Licensee shall not sublet any portion",
+    "problem": "Cannot sublet even with permission",
+    "what_to_do": [
+      "Add 'without written consent'",
+      "Allow for family members",
+      "Include temporary subletting permission",
+      "Specify conditions for approval"
+    ]
+  },
+  {
+    "id": 15,
+    "risk_keyword": "visitor restrictions",
+    "risk_name": "Excessive Visitor Rules",
+    "risk_type": "personal",
+    "severity": "low",
+    "clause_example": "No overnight guests allowed",
+    "problem": "Too restrictive on guests",
+    "what_to_do": [
+      "Remove overnight guest restriction",
+      "Add reasonable guest policy",
+      "Specify maximum days for guests",
+      "Include notification requirement"
+    ]
+  },
+  {
+    "id": 16,
+    "risk_keyword": "pet prohibition",
+    "risk_name": "Absolute Pet Ban",
+    "risk_type": "personal",
+    "severity": "low",
+    "clause_example": "No pets allowed under any circumstances",
+    "problem": "Cannot keep pets",
+    "what_to_do": [
+      "Add 'without written permission'",
+      "Allow small caged pets",
+      "Include damage liability clause",
+      "Specify pet rules"
+    ]
+  },
+  {
+    "id": 17,
+    "risk_keyword": "alterations prohibited",
+    "risk_name": "No Alterations Allowed",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No alterations to premises allowed",
+    "problem": "Cannot make any changes",
+    "what_to_do": [
+      "Add 'without written consent'",
+      "Allow non-structural changes",
+      "Include restoration obligation",
+      "Specify approval process"
+    ]
+  },
+  {
+    "id": 18,
+    "risk_keyword": "furniture provision",
+    "risk_name": "Unclear Furniture Terms",
+    "risk_type": "financial",
+    "severity": "medium",
+    "clause_example": "Licensee shall maintain all furniture",
+    "problem": "Responsible for furniture maintenance",
+    "what_to_do": [
+      "Inventory all furniture",
+      "Define maintenance responsibility",
+      "Add depreciation clause",
+      "Specify replacement conditions"
+    ]
+  },
+  {
+    "id": 19,
+    "risk_keyword": "parking space",
+    "risk_name": "Parking Space Issues",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "Parking at licensee's own risk",
+    "problem": "No parking guarantee",
+    "what_to_do": [
+      "Specify parking space number",
+      "Add allocated parking clause",
+      "Include parking in license fee",
+      "Define parking rules"
+    ]
+  },
+  {
+    "id": 20,
+    "risk_keyword": "common area maintenance",
+    "risk_name": "Common Area Charges",
+    "risk_type": "financial",
+    "severity": "medium",
+    "clause_example": "Licensee shall pay common area maintenance",
+    "problem": "Paying for building maintenance",
+    "what_to_do": [
+      "Define CAM charges clearly",
+      "Cap annual increases",
+      "Add audit right",
+      "Specify services included"
+    ]
+  },
+  {
+    "id": 21,
+    "risk_keyword": "society rules",
+    "risk_name": "Unspecified Society Rules",
+    "risk_type": "compliance",
+    "severity": "low",
+    "clause_example": "Licensee shall follow all society rules",
+    "problem": "Rules not specified",
+    "what_to_do": [
+      "Attach society rules as annexure",
+      "Add 'reasonable rules' clause",
+      "Include notification of rule changes",
+      "Specify compliance process"
+    ]
+  },
+  {
+    "id": 22,
+    "risk_keyword": "insurance requirement",
+    "risk_name": "Insurance Obligations",
+    "risk_type": "financial",
+    "severity": "medium",
+    "clause_example": "Licensee shall insure the premises",
+    "problem": "Paying for building insurance",
+    "what_to_do": [
+      "Limit to contents insurance only",
+      "Specify minimum coverage",
+      "Add building insurance is owner's duty",
+      "Include proof of insurance"
+    ]
+  },
+  {
+    "id": 23,
+    "risk_keyword": "force majeure",
+    "risk_name": "Broad Force Majeure",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "Licensor not liable for any force majeure",
+    "problem": "Too broad exception",
+    "what_to_do": [
+      "Define force majeure events",
+      "Add rent suspension during extended events",
+      "Include termination right after 30 days",
+      "Specify notice requirements"
+    ]
+  },
+  {
+    "id": 24,
+    "risk_keyword": "indemnification clause",
+    "risk_name": "One-sided Indemnity",
+    "risk_type": "legal",
+    "severity": "high",
+    "clause_example": "Licensee shall indemnify licensor for all claims",
+    "problem": "Taking all liability",
+    "what_to_do": [
+      "Make indemnity mutual",
+      "Limit to licensee's negligence",
+      "Add liability cap",
+      "Exclude indirect damages"
+    ]
+  },
+  {
+    "id": 25,
+    "risk_keyword": "jurisdiction clause",
+    "risk_name": "Inconvenient Jurisdiction",
+    "risk_type": "legal",
+    "severity": "medium",
+    "clause_example": "Jurisdiction at licensor's hometown",
+    "problem": "Legal disputes far away",
+    "what_to_do": [
+      "Request property location jurisdiction",
+      "Add arbitration option",
+      "Include mutual convenience",
+      "Specify online dispute resolution"
+    ]
+  },
+  {
+    "id": 26,
+    "risk_keyword": "dispute resolution",
+    "risk_name": "Costly Dispute Process",
+    "risk_type": "legal",
+    "severity": "medium",
+    "clause_example": "All disputes through court only",
+    "problem": "Expensive legal process",
+    "what_to_do": [
+      "Add mediation step first",
+      "Include arbitration clause",
+      "Specify cost sharing",
+      "Add time limits"
+    ]
+  },
+  {
+    "id": 27,
+    "risk_keyword": "attorney fees",
+    "risk_name": "Unilateral Attorney Fees",
+    "risk_type": "financial",
+    "severity": "high",
+    "clause_example": "Licensee shall pay all attorney fees",
+    "problem": "Paying all legal costs",
+    "what_to_do": [
+      "Make attorney fees mutual",
+      "Limit to losing party pays",
+      "Add reasonableness requirement",
+      "Specify pre-approval needed"
+    ]
+  },
+  {
+    "id": 28,
+    "risk_keyword": "inspection rights",
+    "risk_name": "Excessive Inspection",
+    "risk_type": "personal",
+    "severity": "low",
+    "clause_example": "Licensor may inspect at any time",
+    "problem": "No privacy",
+    "what_to_do": [
+      "Require 24 hours notice",
+      "Limit to business hours",
+      "Specify reasonable frequency",
+      "Add emergency exception"
+    ]
+  },
+  {
+    "id": 29,
+    "risk_keyword": "vacation notice",
+    "risk_name": "Short Vacation Notice",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "Licensee must vacate immediately upon termination",
+    "problem": "No time to move out",
+    "what_to_do": [
+      "Add 15-day vacating period",
+      "Include grace period",
+      "Specify handover process",
+      "Add final inspection requirement"
+    ]
+  },
+  {
+    "id": 30,
+    "risk_keyword": "inventory checklist",
+    "risk_name": "Missing Inventory",
+    "risk_type": "financial",
+    "severity": "medium",
+    "clause_example": "Licensee accepts premises as is",
+    "problem": "No record of existing condition",
+    "what_to_do": [
+      "Add detailed inventory annexure",
+      "Include condition report",
+      "Add photos as evidence",
+      "Specify joint inspection"
+    ]
+  },
+  {
+    "id": 31,
+    "risk_keyword": "key deposit",
+    "risk_name": "Separate Key Deposit",
+    "risk_type": "financial",
+    "severity": "low",
+    "clause_example": "Separate key deposit of ₹5000",
+    "problem": "Extra deposit for keys",
+    "what_to_do": [
+      "Include in security deposit",
+      "Remove separate key deposit",
+      "Specify key replacement cost",
+      "Add key return process"
+    ]
+  },
+  {
+    "id": 32,
+    "risk_keyword": "non-occupancy clause",
+    "risk_name": "Vacation Restrictions",
+    "risk_type": "personal",
+    "severity": "low",
+    "clause_example": "Premises cannot be vacant for more than 15 days",
+    "problem": "Cannot leave property vacant",
+    "what_to_do": [
+      "Increase to 30 days",
+      "Add notification requirement",
+      "Include security measures exception",
+      "Specify emergency contact"
+    ]
+  },
+  {
+    "id": 33,
+    "risk_keyword": "right of re-entry",
+    "risk_name": "Immediate Re-entry",
+    "risk_type": "legal",
+    "severity": "high",
+    "clause_example": "Licensor may re-enter upon any breach",
+    "problem": "Owner can enter without court order",
+    "what_to_do": [
+      "Require court order for re-entry",
+      "Add cure period for breaches",
+      "Specify notice requirements",
+      "Include due process"
+    ]
+  },
+  {
+    "id": 34,
+    "risk_keyword": "good faith deposit",
+    "risk_name": "Additional Good Faith Deposit",
+    "risk_type": "financial",
+    "severity": "medium",
+    "clause_example": "Good faith deposit of ₹25000 non-refundable",
+    "problem": "Non-refundable deposit",
+    "what_to_do": [
+      "Remove non-refundable clause",
+      "Include in security deposit",
+      "Add refund conditions",
+      "Specify adjustment process"
+    ]
+  },
+  {
+    "id": 35,
+    "risk_keyword": "stamp duty",
+    "risk_name": "Stamp Duty Payment",
+    "risk_type": "financial",
+    "severity": "high",
+    "clause_example": "Licensee shall pay full stamp duty",
+    "problem": "Paying all registration costs",
+    "what_to_do": [
+      "Share stamp duty 50-50",
+      "Follow state guidelines",
+      "Add registration cost sharing",
+      "Specify payment responsibility"
+    ]
+  },
+  {
+    "id": 36,
+    "risk_keyword": "registration charges",
+    "risk_name": "Registration Cost Burden",
+    "risk_type": "financial",
+    "severity": "medium",
+    "clause_example": "Licensee shall bear all registration charges",
+    "problem": "Paying all registration fees",
+    "what_to_do": [
+      "Share registration costs",
+      "Specify exact amounts",
+      "Add payment timeline",
+      "Include verification right"
+    ]
+  },
+  {
+    "id": 37,
+    "risk_keyword": "brokerage fees",
+    "risk_name": "Brokerage Payment",
+    "risk_type": "financial",
+    "severity": "medium",
+    "clause_example": "Licensee shall pay brokerage fees",
+    "problem": "Paying broker commission",
+    "what_to_do": [
+      "Specify brokerage amount",
+      "Add who engaged broker",
+      "Include payment responsibility",
+      "Specify payment timing"
+    ]
+  },
+  {
+    "id": 38,
+    "risk_keyword": "legal notice charges",
+    "risk_name": "Legal Notice Costs",
+    "risk_type": "financial",
+    "severity": "medium",
+    "clause_example": "Licensee shall pay for all legal notices",
+    "problem": "Paying for legal communications",
+    "what_to_do": [
+      "Remove unilateral payment",
+      "Add mutual responsibility",
+      "Specify reasonable costs",
+      "Include pre-approval requirement"
+    ]
+  },
+  {
+    "id": 39,
+    "risk_keyword": "telephone charges",
+    "risk_name": "Landline Telephone Costs",
+    "risk_type": "financial",
+    "severity": "low",
+    "clause_example": "Licensee shall pay telephone charges",
+    "problem": "Paying for landline",
+    "what_to_do": [
+      "Specify if landline provided",
+      "Add connection transfer process",
+      "Include disconnection responsibility",
+      "Specify bill payment process"
+    ]
+  },
+  {
+    "id": 40,
+    "risk_keyword": "internet broadband",
+    "risk_name": "Internet Service Issues",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "Licensee shall arrange own internet",
+    "problem": "No internet facility",
+    "what_to_do": [
+      "Add permission for installation",
+      "Specify restoration requirement",
+      "Include infrastructure support",
+      "Add coordination requirement"
+    ]
+  },
+  {
+    "id": 41,
+    "risk_keyword": "cable tv",
+    "risk_name": "Cable TV Arrangements",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "Licensee shall arrange cable TV",
+    "problem": "TV connection responsibility",
+    "what_to_do": [
+      "Add installation permission",
+      "Specify restoration on vacating",
+      "Include existing connection details",
+      "Add coordination with society"
+    ]
+  },
+  {
+    "id": 42,
+    "risk_keyword": "safety security",
+    "risk_name": "Security Responsibility",
+    "risk_type": "compliance",
+    "severity": "medium",
+    "clause_example": "Licensee responsible for all security",
+    "problem": "Full security responsibility",
+    "what_to_do": [
+      "Define security measures",
+      "Add owner's contribution",
+      "Include society security coverage",
+      "Specify insurance requirements"
+    ]
+  },
+  {
+    "id": 43,
+    "risk_keyword": "fire safety",
+    "risk_name": "Fire Safety Compliance",
+    "risk_type": "compliance",
+    "severity": "high",
+    "clause_example": "Licensee shall comply with fire safety",
+    "problem": "Fire safety responsibility",
+    "what_to_do": [
+      "Specify existing fire safety",
+      "Add owner's maintenance duty",
+      "Include inspection rights",
+      "Define compliance requirements"
+    ]
+  },
+  {
+    "id": 44,
+    "risk_keyword": "pest control",
+    "risk_name": "Pest Control Costs",
+    "risk_type": "financial",
+    "severity": "low",
+    "clause_example": "Licensee shall bear pest control costs",
+    "problem": "Paying for pest control",
+    "what_to_do": [
+      "Share pest control costs",
+      "Specify frequency",
+      "Add professional service requirement",
+      "Include owner's contribution"
+    ]
+  },
+  {
+    "id": 45,
+    "risk_keyword": "garbage disposal",
+    "risk_name": "Waste Management",
+    "risk_type": "compliance",
+    "severity": "low",
+    "clause_example": "Licensee shall manage garbage disposal",
+    "problem": "Garbage disposal responsibility",
+    "what_to_do": [
+      "Specify society garbage system",
+      "Add compliance requirements",
+      "Include segregation rules",
+      "Define timing for disposal"
+    ]
+  },
+  {
+    "id": 46,
+    "risk_keyword": "water tank cleaning",
+    "risk_name": "Water Tank Maintenance",
+    "risk_type": "financial",
+    "severity": "low",
+    "clause_example": "Licensee shall clean water tanks",
+    "problem": "Water tank cleaning responsibility",
+    "what_to_do": [
+      "Specify cleaning frequency",
+      "Add professional service requirement",
+      "Include cost sharing",
+      "Define water quality testing"
+    ]
+  },
+  {
+    "id": 47,
+    "risk_keyword": "sump pump maintenance",
+    "risk_name": "Sump Pump Issues",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "Licensee shall maintain sump pump",
+    "problem": "Sump pump maintenance",
+    "what_to_do": [
+      "Define maintenance responsibility",
+      "Add professional service clause",
+      "Include emergency contact",
+      "Specify repair process"
+    ]
+  },
+  {
+    "id": 48,
+    "risk_keyword": "generator usage",
+    "risk_name": "Generator Charges",
+    "risk_type": "financial",
+    "severity": "medium",
+    "clause_example": "Licensee shall pay generator charges",
+    "problem": "Generator cost responsibility",
+    "what_to_do": [
+      "Define generator usage charges",
+      "Add per unit cost specification",
+      "Include sharing mechanism",
+      "Specify metering arrangement"
+    ]
+  },
+  {
+    "id": 49,
+    "risk_keyword": "society entry restrictions",
+    "risk_name": "Society Entry Rules",
+    "risk_type": "personal",
+    "severity": "low",
+    "clause_example": "Licensee guests subject to society rules",
+    "problem": "Guest entry restrictions",
+    "what_to_do": [
+      "Specify society guest rules",
+      "Add reasonable access guarantee",
+      "Include notification process",
+      "Define visitor registration"
+    ]
+  },
+  {
+    "id": 50,
+    "risk_keyword": "delivery restrictions",
+    "risk_name": "Delivery Limitations",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No food deliveries allowed",
+    "problem": "Delivery restrictions",
+    "what_to_do": [
+      "Remove absolute restrictions",
+      "Add reasonable delivery rules",
+      "Include timing restrictions",
+      "Specify delivery area"
+    ]
+  },
+  {
+    "id": 51,
+    "risk_keyword": "religious restrictions",
+    "risk_name": "Religious Limitations",
+    "risk_type": "personal",
+    "severity": "medium",
+    "clause_example": "No religious activities allowed",
+    "problem": "Religious freedom restricted",
+    "what_to_do": [
+      "Remove absolute restrictions",
+      "Add reasonable noise limits",
+      "Include common area usage rules",
+      "Specify peaceful enjoyment"
+    ]
+  },
+  {
+    "id": 52,
+    "risk_keyword": "festival celebrations",
+    "risk_name": "Festival Restrictions",
+    "risk_type": "personal",
+    "severity": "low",
+    "clause_example": "No festival celebrations allowed",
+    "problem": "Cannot celebrate festivals",
+    "what_to_do": [
+      "Add reasonable celebration rules",
+      "Include noise level limits",
+      "Specify timing restrictions",
+      "Add society rule compliance"
+    ]
+  },
+  {
+    "id": 53,
+    "risk_keyword": "noise restrictions",
+    "risk_name": "Excessive Noise Rules",
+    "risk_type": "personal",
+    "severity": "low",
+    "clause_example": "Complete silence after 8 PM",
+    "problem": "Too strict noise rules",
+    "what_to_do": [
+      "Add reasonable noise limits",
+      "Specify quiet hours (10 PM to 7 AM)",
+      "Include decibel levels",
+      "Add mutual consideration"
+    ]
+  },
+  {
+    "id": 54,
+    "risk_keyword": "music restrictions",
+    "risk_name": "Music Limitations",
+    "risk_type": "personal",
+    "severity": "low",
+    "clause_example": "No music allowed",
+    "problem": "Cannot play music",
+    "what_to_do": [
+      "Add reasonable music rules",
+      "Specify volume limits",
+      "Include headphone usage",
+      "Add timing restrictions"
+    ]
+  },
+  {
+    "id": 55,
+    "risk_keyword": "smoking prohibition",
+    "risk_name": "Absolute Smoking Ban",
+    "risk_type": "personal",
+    "severity": "low",
+    "clause_example": "No smoking anywhere on premises",
+    "problem": "Cannot smoke even in designated area",
+    "what_to_do": [
+      "Add designated smoking area",
+      "Specify balcony/terrace usage",
+      "Include fire safety compliance",
+      "Add proper disposal requirement"
+    ]
+  },
+  {
+    "id": 56,
+    "risk_keyword": "alcohol consumption",
+    "risk_name": "Alcohol Restrictions",
+    "risk_type": "personal",
+    "severity": "low",
+    "clause_example": "No alcohol consumption allowed",
+    "problem": "Cannot consume alcohol",
+    "what_to_do": [
+      "Remove absolute prohibition",
+      "Add reasonable consumption rules",
+      "Include noise control",
+      "Specify responsible consumption"
+    ]
+  },
+  {
+    "id": 57,
+    "risk_keyword": "cooking restrictions",
+    "risk_name": "Cooking Limitations",
+    "risk_type": "personal",
+    "severity": "medium",
+    "clause_example": "No non-vegetarian cooking allowed",
+    "problem": "Food cooking restrictions",
+    "what_to_do": [
+      "Remove food type restrictions",
+      "Add ventilation requirements",
+      "Include cleaning obligations",
+      "Specify odor control"
+    ]
+  },
+  {
+    "id": 58,
+    "risk_keyword": "washing machine usage",
+    "risk_name": "Laundry Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No washing machine allowed",
+    "problem": "Cannot use washing machine",
+    "what_to_do": [
+      "Remove machine restrictions",
+      "Add water usage considerations",
+      "Include drainage requirements",
+      "Specify vibration control"
+    ]
+  },
+  {
+    "id": 59,
+    "risk_keyword": "geyser usage",
+    "risk_name": "Water Heater Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "Geyser usage restricted to 2 hours daily",
+    "problem": "Hot water usage limited",
+    "what_to_do": [
+      "Remove time restrictions",
+      "Add electricity payment guarantee",
+      "Include safety requirements",
+      "Specify capacity limits"
+    ]
+  },
+  {
+    "id": 60,
+    "risk_keyword": "ac installation",
+    "risk_name": "AC Installation Rules",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No AC installation allowed",
+    "problem": "Cannot install air conditioner",
+    "what_to_do": [
+      "Add permission for AC installation",
+      "Specify professional installation",
+      "Include electricity capacity",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 61,
+    "risk_keyword": "modular kitchen",
+    "risk_name": "Kitchen Modifications",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No kitchen modifications allowed",
+    "problem": "Cannot improve kitchen",
+    "what_to_do": [
+      "Add permission for improvements",
+      "Specify non-structural changes",
+      "Include restoration requirement",
+      "Add approval process"
+    ]
+  },
+  {
+    "id": 62,
+    "risk_keyword": "false ceiling",
+    "risk_name": "Ceiling Modifications",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No false ceiling allowed",
+    "problem": "Cannot install false ceiling",
+    "what_to_do": [
+      "Add permission clause",
+      "Specify professional installation",
+      "Include fire safety compliance",
+      "Add removal option"
+    ]
+  },
+  {
+    "id": 63,
+    "risk_keyword": "wooden flooring",
+    "risk_name": "Flooring Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No wooden flooring allowed",
+    "problem": "Cannot change flooring",
+    "what_to_do": [
+      "Add permission for temporary flooring",
+      "Specify restoration requirement",
+      "Include professional installation",
+      "Add approval process"
+    ]
+  },
+  {
+    "id": 64,
+    "risk_keyword": "wall paint color",
+    "risk_name": "Paint Color Restrictions",
+    "risk_type": "personal",
+    "severity": "low",
+    "clause_example": "Walls must remain white",
+    "problem": "Cannot paint walls",
+    "what_to_do": [
+      "Add permission for painting",
+      "Specify restoration to original",
+      "Include professional painting",
+      "Add color approval process"
+    ]
+  },
+  {
+    "id": 65,
+    "risk_keyword": "curtain rods",
+    "risk_name": "Window Treatment Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No drilling for curtain rods",
+    "problem": "Cannot install curtains",
+    "what_to_do": [
+      "Add permission for installations",
+      "Specify hole filling on vacating",
+      "Include professional installation",
+      "Add restoration requirement"
+    ]
+  },
+  {
+    "id": 66,
+    "risk_keyword": "wall shelves",
+    "risk_name": "Shelving Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No wall shelves allowed",
+    "problem": "Cannot install shelves",
+    "what_to_do": [
+      "Add permission for shelves",
+      "Specify professional installation",
+      "Include hole filling obligation",
+      "Add weight limits"
+    ]
+  },
+  {
+    "id": 67,
+    "risk_keyword": "tv mounting",
+    "risk_name": "TV Installation Rules",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No TV wall mounting allowed",
+    "problem": "Cannot mount TV",
+    "what_to_do": [
+      "Add permission for TV mounting",
+      "Specify professional installation",
+      "Include hole filling requirement",
+      "Add cable management rules"
+    ]
+  },
+  {
+    "id": 68,
+    "risk_keyword": "aquarium prohibition",
+    "risk_name": "Aquarium Restrictions",
+    "risk_type": "personal",
+    "severity": "low",
+    "clause_example": "No aquarium allowed",
+    "problem": "Cannot keep aquarium",
+    "what_to_do": [
+      "Add permission for small aquarium",
+      "Specify size limits",
+      "Include water damage liability",
+      "Add maintenance requirements"
+    ]
+  },
+  {
+    "id": 69,
+    "risk_keyword": "indoor plants",
+    "risk_name": "Plant Restrictions",
+    "risk_type": "personal",
+    "severity": "low",
+    "clause_example": "No indoor plants allowed",
+    "problem": "Cannot keep plants",
+    "what_to_do": [
+      "Remove plant restrictions",
+      "Add reasonable plant rules",
+      "Include watering precautions",
+      "Specify pest control responsibility"
+    ]
+  },
+  {
+    "id": 70,
+    "risk_keyword": "balcony usage",
+    "risk_name": "Balcony Restrictions",
+    "risk_type": "personal",
+    "severity": "low",
+    "clause_example": "Balcony cannot be used",
+    "problem": "Cannot use balcony",
+    "what_to_do": [
+      "Remove balcony restrictions",
+      "Add reasonable usage rules",
+      "Include safety requirements",
+      "Specify cleaning responsibility"
+    ]
+  },
+  {
+    "id": 71,
+    "risk_keyword": "terrace access",
+    "risk_name": "Terrace Usage Rules",
+    "risk_type": "personal",
+    "severity": "low",
+    "clause_example": "No terrace access allowed",
+    "problem": "Cannot access terrace",
+    "what_to_do": [
+      "Add terrace access rights",
+      "Specify shared or exclusive",
+      "Include safety rules",
+      "Add maintenance responsibility"
+    ]
+  },
+  {
+    "id": 72,
+    "risk_keyword": "car parking",
+    "risk_name": "Vehicle Parking Issues",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "Parking at owner's discretion",
+    "problem": "No guaranteed parking",
+    "what_to_do": [
+      "Specify parking slot number",
+      "Add exclusive parking rights",
+      "Include visitor parking rules",
+      "Specify parking fee if any"
+    ]
+  },
+  {
+    "id": 73,
+    "risk_keyword": "bicycle parking",
+    "risk_name": "Bicycle Storage",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No bicycle parking allowed",
+    "problem": "Cannot park bicycle",
+    "what_to_do": [
+      "Add bicycle parking area",
+      "Specify designated space",
+      "Include security measures",
+      "Add no obstruction clause"
+    ]
+  },
+  {
+    "id": 74,
+    "risk_keyword": "motorcycle parking",
+    "risk_name": "Two-Wheeler Parking",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No motorcycle parking",
+    "problem": "Cannot park motorcycle",
+    "what_to_do": [
+      "Add motorcycle parking space",
+      "Specify allocated area",
+      "Include security arrangements",
+      "Add parking rules"
+    ]
+  },
+  {
+    "id": 75,
+    "risk_keyword": "visitor parking",
+    "risk_name": "Guest Parking",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No visitor parking allowed",
+    "problem": "Guests cannot park",
+    "what_to_do": [
+      "Add visitor parking provision",
+      "Specify time limits",
+      "Include registration requirement",
+      "Add temporary parking rules"
+    ]
+  },
+  {
+    "id": 76,
+    "risk_keyword": "service staff entry",
+    "risk_name": "Domestic Help Rules",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No domestic help allowed",
+    "problem": "Cannot have domestic help",
+    "what_to_do": [
+      "Remove domestic help restrictions",
+      "Add reasonable entry rules",
+      "Include society registration",
+      "Specify timing restrictions"
+    ]
+  },
+  {
+    "id": 77,
+    "risk_keyword": "driver quarters",
+    "risk_name": "Driver Accommodation",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No driver accommodation",
+    "problem": "Cannot accommodate driver",
+    "what_to_do": [
+      "Add driver accommodation permission",
+      "Specify space limitations",
+      "Include society rules compliance",
+      "Add additional charges if any"
+    ]
+  },
+  {
+    "id": 78,
+    "risk_keyword": "additional occupants",
+    "risk_name": "Occupant Limitations",
+    "risk_type": "personal",
+    "severity": "medium",
+    "clause_example": "Only 2 occupants allowed",
+    "problem": "Limited number of people",
+    "what_to_do": [
+      "Increase occupant limit reasonably",
+      "Add family member exception",
+      "Specify maximum capacity",
+      "Include additional charge option"
+    ]
+  },
+  {
+    "id": 79,
+    "risk_keyword": "children restrictions",
+    "risk_name": "No Children Allowed",
+    "risk_type": "personal",
+    "severity": "high",
+    "clause_example": "No children allowed",
+    "problem": "Cannot have children",
+    "what_to_do": [
+      "Remove children restrictions",
+      "Add reasonable noise rules",
+      "Include damage liability",
+      "Specify family accommodation"
+    ]
+  },
+  {
+    "id": 80,
+    "risk_keyword": "senior citizens",
+    "risk_name": "Elderly Restrictions",
+    "risk_type": "personal",
+    "severity": "medium",
+    "clause_example": "No senior citizens allowed",
+    "problem": "Elderly parents cannot stay",
+    "what_to_do": [
+      "Remove age restrictions",
+      "Add reasonable accommodation",
+      "Include medical needs consideration",
+      "Specify caregiver allowance"
+    ]
+  },
+  {
+    "id": 81,
+    "risk_keyword": "marital status",
+    "risk_name": "Marital Status Discrimination",
+    "risk_type": "personal",
+    "severity": "high",
+    "clause_example": "Only married couples allowed",
+    "problem": "Discrimination based on marital status",
+    "what_to_do": [
+      "Remove marital status restrictions",
+      "Add reasonable occupant rules",
+      "Include behavior standards",
+      "Specify peaceful enjoyment"
+    ]
+  },
+  {
+    "id": 82,
+    "risk_keyword": "gender restrictions",
+    "risk_name": "Gender Discrimination",
+    "risk_type": "personal",
+    "severity": "high",
+    "clause_example": "Only females allowed",
+    "problem": "Gender discrimination",
+    "what_to_do": [
+      "Remove gender restrictions",
+      "Add reasonable occupant rules",
+      "Include safety considerations",
+      "Specify behavior standards"
+    ]
+  },
+  {
+    "id": 83,
+    "risk_keyword": "religious discrimination",
+    "risk_name": "Religion-Based Restrictions",
+    "risk_type": "personal",
+    "severity": "high",
+    "clause_example": "Only vegetarians allowed",
+    "problem": "Religious/caste discrimination",
+    "what_to_do": [
+      "Remove religious restrictions",
+      "Add reasonable behavior rules",
+      "Include peaceful enjoyment",
+      "Specify non-discrimination"
+    ]
+  },
+  {
+    "id": 84,
+    "risk_keyword": "nationality restrictions",
+    "risk_name": "Nationality Discrimination",
+    "risk_type": "personal",
+    "severity": "high",
+    "clause_example": "Only Indians allowed",
+    "problem": "Nationality discrimination",
+    "what_to_do": [
+      "Remove nationality restrictions",
+      "Add legal residency requirement",
+      "Include documentation verification",
+      "Specify visa compliance"
+    ]
+  },
+  {
+    "id": 85,
+    "risk_keyword": "professional restrictions",
+    "risk_name": "Occupation Limitations",
+    "risk_type": "personal",
+    "severity": "medium",
+    "clause_example": "No IT professionals allowed",
+    "problem": "Job discrimination",
+    "what_to_do": [
+      "Remove professional restrictions",
+      "Add reasonable work-from-home rules",
+      "Include business activity limitations",
+      "Specify peaceful enjoyment"
+    ]
+  },
+  {
+    "id": 86,
+    "risk_keyword": "work from home",
+    "risk_name": "WFH Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No work from home allowed",
+    "problem": "Cannot work from home",
+    "what_to_do": [
+      "Remove WFH restrictions",
+      "Add reasonable work rules",
+      "Include client visit limitations",
+      "Specify business activity scope"
+    ]
+  },
+  {
+    "id": 87,
+    "risk_keyword": "home business",
+    "risk_name": "Business Activity Ban",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No business activity allowed",
+    "problem": "Cannot run any business",
+    "what_to_do": [
+      "Add permission for small business",
+      "Specify no client visits",
+      "Include no external signage",
+      "Add no disturbance clause"
+    ]
+  },
+  {
+    "id": 88,
+    "risk_keyword": "tuition classes",
+    "risk_name": "Teaching Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No tuition classes allowed",
+    "problem": "Cannot teach from home",
+    "what_to_do": [
+      "Add permission for limited tuition",
+      "Specify student limits",
+      "Include timing restrictions",
+      "Add no disturbance clause"
+    ]
+  },
+  {
+    "id": 89,
+    "risk_keyword": "music classes",
+    "risk_name": "Music Teaching Ban",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No music teaching allowed",
+    "problem": "Cannot teach music",
+    "what_to_do": [
+      "Add permission for limited teaching",
+      "Specify timing restrictions",
+      "Include soundproofing requirements",
+      "Add student limit"
+    ]
+  },
+  {
+    "id": 90,
+    "risk_keyword": "yoga classes",
+    "risk_name": "Yoga Teaching Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No yoga classes allowed",
+    "problem": "Cannot teach yoga",
+    "what_to_do": [
+      "Add permission for small classes",
+      "Specify participant limits",
+      "Include timing restrictions",
+      "Add no disturbance clause"
+    ]
+  },
+  {
+    "id": 91,
+    "risk_keyword": "cooking classes",
+    "risk_name": "Cooking Teaching Ban",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No cooking classes allowed",
+    "problem": "Cannot teach cooking",
+    "what_to_do": [
+      "Add permission for limited classes",
+      "Specify participant limits",
+      "Include ventilation requirements",
+      "Add fire safety compliance"
+    ]
+  },
+  {
+    "id": 92,
+    "risk_keyword": "art classes",
+    "risk_name": "Art Teaching Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No art classes allowed",
+    "problem": "Cannot teach art",
+    "what_to_do": [
+      "Add permission for small art classes",
+      "Specify material storage rules",
+      "Include cleanup requirements",
+      "Add participant limits"
+    ]
+  },
+  {
+    "id": 93,
+    "risk_keyword": "dance classes",
+    "risk_name": "Dance Teaching Ban",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No dance classes allowed",
+    "problem": "Cannot teach dance",
+    "what_to_do": [
+      "Add permission for limited classes",
+      "Specify flooring protection",
+      "Include timing restrictions",
+      "Add sound level limits"
+    ]
+  },
+  {
+    "id": 94,
+    "risk_keyword": "photography studio",
+    "risk_name": "Studio Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No photography studio allowed",
+    "problem": "Cannot run photography studio",
+    "what_to_do": [
+      "Add permission for small studio",
+      "Specify no external clients",
+      "Include equipment storage rules",
+      "Add no structural changes"
+    ]
+  },
+  {
+    "id": 95,
+    "risk_keyword": "recording studio",
+    "risk_name": "Audio Recording Ban",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No recording studio allowed",
+    "problem": "Cannot have recording setup",
+    "what_to_do": [
+      "Add permission for small recording",
+      "Specify soundproofing requirements",
+      "Include timing restrictions",
+      "Add equipment limits"
+    ]
+  },
+  {
+    "id": 96,
+    "risk_keyword": "video shooting",
+    "risk_name": "Video Production Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No video shooting allowed",
+    "problem": "Cannot shoot videos",
+    "what_to_do": [
+      "Add permission for limited shooting",
+      "Specify crew size limits",
+      "Include equipment restrictions",
+      "Add timing limitations"
+    ]
+  },
+  {
+    "id": 97,
+    "risk_keyword": "product storage",
+    "risk_name": "Storage Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No product storage allowed",
+    "problem": "Cannot store products",
+    "what_to_do": [
+      "Add permission for limited storage",
+      "Specify quantity limits",
+      "Include safety requirements",
+      "Add no commercial activity"
+    ]
+  },
+  {
+    "id": 98,
+    "risk_keyword": "inventory storage",
+    "risk_name": "Commercial Storage Ban",
+    "risk_type": "operational",
+    "severity": "high",
+    "clause_example": "No inventory storage allowed",
+    "problem": "Cannot store commercial inventory",
+    "what_to_do": [
+      "Add permission for small inventory",
+      "Specify fire safety compliance",
+      "Include weight limits",
+      "Add insurance requirement"
+    ]
+  },
+  {
+    "id": 99,
+    "risk_keyword": "dangerous materials",
+    "risk_name": "Hazardous Material Storage",
+    "risk_type": "safety",
+    "severity": "high",
+    "clause_example": "No dangerous materials allowed",
+    "problem": "Cannot store hazardous items",
+    "what_to_do": [
+      "Define dangerous materials clearly",
+      "Add reasonable household items exception",
+      "Include safety compliance",
+      "Specify prohibited items list"
+    ]
+  },
+  {
+    "id": 100,
+    "risk_keyword": "flammable materials",
+    "risk_name": "Fire Hazard Materials",
+    "risk_type": "safety",
+    "severity": "high",
+    "clause_example": "No flammable materials allowed",
+    "problem": "Cannot store flammable items",
+    "what_to_do": [
+      "Add reasonable household exception",
+      "Specify storage requirements",
+      "Include fire safety compliance",
+      "Add prohibited items list"
+    ]
+  },
+  {
+    "id": 101,
+    "risk_keyword": "gas cylinder storage",
+    "risk_name": "Gas Cylinder Restrictions",
+    "risk_type": "safety",
+    "severity": "high",
+    "clause_example": "No gas cylinders allowed",
+    "problem": "Cannot use cooking gas",
+    "what_to_do": [
+      "Allow LPG cylinders with safety",
+      "Specify storage location",
+      "Include safety valve requirements",
+      "Add fire extinguisher provision"
+    ]
+  },
+  {
+    "id": 102,
+    "risk_keyword": "fireworks prohibition",
+    "risk_name": "Fireworks Ban",
+    "risk_type": "safety",
+    "severity": "high",
+    "clause_example": "No fireworks allowed",
+    "problem": "Cannot use fireworks",
+    "what_to_do": [
+      "Allow with society permission",
+      "Specify designated area",
+      "Include safety precautions",
+      "Add cleanup responsibility"
+    ]
+  },
+  {
+    "id": 103,
+    "risk_keyword": "candle usage",
+    "risk_name": "Candle Restrictions",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No candles allowed",
+    "problem": "Cannot use candles",
+    "what_to_do": [
+      "Allow with safety precautions",
+      "Specify holders required",
+      "Include never leave unattended",
+      "Add emergency provision"
+    ]
+  },
+  {
+    "id": 104,
+    "risk_keyword": "incense sticks",
+    "risk_name": "Incense Restrictions",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No incense sticks allowed",
+    "problem": "Cannot use incense",
+    "what_to_do": [
+      "Allow with safety holders",
+      "Specify never leave burning",
+      "Include fire-safe location",
+      "Add ventilation requirement"
+    ]
+  },
+  {
+    "id": 105,
+    "risk_keyword": "diya lighting",
+    "risk_name": "Oil Lamp Restrictions",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No diya lighting allowed",
+    "problem": "Cannot light oil lamps",
+    "what_to_do": [
+      "Allow with safety precautions",
+      "Specify stable surface",
+      "Include never leave unattended",
+      "Add fire extinguisher nearby"
+    ]
+  },
+  {
+    "id": 106,
+    "risk_keyword": "electric heater",
+    "risk_name": "Heater Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No electric heaters allowed",
+    "problem": "Cannot use heaters",
+    "what_to_do": [
+      "Allow with safety standards",
+      "Specify automatic cut-off",
+      "Include proper ventilation",
+      "Add ISI mark requirement"
+    ]
+  },
+  {
+    "id": 107,
+    "risk_keyword": "room heater",
+    "risk_name": "Room Heater Ban",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No room heaters allowed",
+    "problem": "Cannot use room heaters",
+    "what_to_do": [
+      "Allow with safety features",
+      "Specify distance from flammables",
+      "Include never leave unattended",
+      "Add fire safety compliance"
+    ]
+  },
+  {
+    "id": 108,
+    "risk_keyword": "electric blanket",
+    "risk_name": "Electric Blanket Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No electric blankets allowed",
+    "problem": "Cannot use electric blankets",
+    "what_to_do": [
+      "Allow with safety certification",
+      "Specify automatic shut-off",
+      "Include inspection requirement",
+      "Add no overnight use"
+    ]
+  },
+  {
+    "id": 109,
+    "risk_keyword": "space heater",
+    "risk_name": "Space Heater Ban",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No space heaters allowed",
+    "problem": "Cannot use space heaters",
+    "what_to_do": [
+      "Allow with safety standards",
+      "Specify tip-over protection",
+      "Include overheating protection",
+      "Add proper wiring requirement"
+    ]
+  },
+  {
+    "id": 110,
+    "risk_keyword": "electric kettle",
+    "risk_name": "Kettle Restrictions",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No electric kettles allowed",
+    "problem": "Cannot use electric kettle",
+    "what_to_do": [
+      "Allow with auto shut-off",
+      "Specify ISI certification",
+      "Include proper usage",
+      "Add regular inspection"
+    ]
+  },
+  {
+    "id": 111,
+    "risk_keyword": "microwave oven",
+    "risk_name": "Microwave Restrictions",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No microwave oven allowed",
+    "problem": "Cannot use microwave",
+    "what_to_do": [
+      "Allow with safety standards",
+      "Specify proper ventilation",
+      "Include regular maintenance",
+      "Add electrical safety"
+    ]
+  },
+  {
+    "id": 112,
+    "risk_keyword": "induction cooker",
+    "risk_name": "Induction Cooktop Ban",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No induction cooktop allowed",
+    "problem": "Cannot use induction",
+    "what_to_do": [
+      "Allow with electrical capacity",
+      "Specify dedicated circuit",
+      "Include safety certification",
+      "Add proper cookware requirement"
+    ]
+  },
+  {
+    "id": 113,
+    "risk_keyword": "air fryer",
+    "risk_name": "Air Fryer Restrictions",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No air fryer allowed",
+    "problem": "Cannot use air fryer",
+    "what_to_do": [
+      "Allow with safety features",
+      "Specify proper ventilation",
+      "Include electrical safety",
+      "Add regular cleaning"
+    ]
+  },
+  {
+    "id": 114,
+    "risk_keyword": "pressure cooker",
+    "risk_name": "Pressure Cooker Ban",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No pressure cooker allowed",
+    "problem": "Cannot use pressure cooker",
+    "what_to_do": [
+      "Allow with safety valves",
+      "Specify regular inspection",
+      "Include proper usage training",
+      "Add safety certification"
+    ]
+  },
+  {
+    "id": 115,
+    "risk_keyword": "deep fryer",
+    "risk_name": "Deep Fryer Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No deep fryer allowed",
+    "problem": "Cannot use deep fryer",
+    "what_to_do": [
+      "Allow with safety features",
+      "Specify never leave unattended",
+      "Include fire extinguisher nearby",
+      "Add proper oil disposal"
+    ]
+  },
+  {
+    "id": 116,
+    "risk_keyword": "electric grill",
+    "risk_name": "Electric Grill Ban",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No electric grill allowed",
+    "problem": "Cannot use electric grill",
+    "what_to_do": [
+      "Allow with safety standards",
+      "Specify proper ventilation",
+      "Include smoke detector requirement",
+      "Add cleaning responsibility"
+    ]
+  },
+  {
+    "id": 117,
+    "risk_keyword": "barbeque grill",
+    "risk_name": "BBQ Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No barbeque grill allowed",
+    "problem": "Cannot use BBQ",
+    "what_to_do": [
+      "Allow in designated area",
+      "Specify fire safety measures",
+      "Include cleanup responsibility",
+      "Add society permission"
+    ]
+  },
+  {
+    "id": 118,
+    "risk_keyword": "outdoor cooking",
+    "risk_name": "Outdoor Cooking Ban",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No outdoor cooking allowed",
+    "problem": "Cannot cook outside",
+    "what_to_do": [
+      "Allow in designated area",
+      "Specify fire safety",
+      "Include cleanup responsibility",
+      "Add timing restrictions"
+    ]
+  },
+  {
+    "id": 119,
+    "risk_keyword": "campfire prohibition",
+    "risk_name": "Campfire Ban",
+    "risk_type": "safety",
+    "severity": "high",
+    "clause_example": "No campfires allowed",
+    "problem": "Cannot have campfire",
+    "what_to_do": [
+      "Allow with written permission",
+      "Specify designated area",
+      "Include fire safety equipment",
+      "Add full extinguishment"
+    ]
+  },
+  {
+    "id": 120,
+    "risk_keyword": "fire pit",
+    "risk_name": "Fire Pit Restrictions",
+    "risk_type": "safety",
+    "severity": "high",
+    "clause_example": "No fire pit allowed",
+    "problem": "Cannot have fire pit",
+    "what_to_do": [
+      "Allow with safety measures",
+      "Specify distance from building",
+      "Include fire extinguisher",
+      "Add supervision requirement"
+    ]
+  },
+  {
+    "id": 121,
+    "risk_keyword": "swimming pool",
+    "risk_name": "Pool Usage Rules",
+    "risk_type": "safety",
+    "severity": "high",
+    "clause_example": "No swimming pool access",
+    "problem": "Cannot use swimming pool",
+    "what_to_do": [
+      "Add pool access rights",
+      "Specify hours of operation",
+      "Include safety rules",
+      "Add supervision for children"
+    ]
+  },
+  {
+    "id": 122,
+    "risk_keyword": "pool party",
+    "risk_name": "Pool Party Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No pool parties allowed",
+    "problem": "Cannot have pool parties",
+    "what_to_do": [
+      "Allow with prior permission",
+      "Specify guest limits",
+      "Include timing restrictions",
+      "Add cleanup responsibility"
+    ]
+  },
+  {
+    "id": 123,
+    "risk_keyword": "jacuzzi usage",
+    "risk_name": "Jacuzzi Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No jacuzzi usage allowed",
+    "problem": "Cannot use jacuzzi",
+    "what_to_do": [
+      "Allow with safety rules",
+      "Specify maximum occupancy",
+      "Include cleaning responsibility",
+      "Add time limits"
+    ]
+  },
+  {
+    "id": 124,
+    "risk_keyword": "sauna steam room",
+    "risk_name": "Sauna Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No sauna access allowed",
+    "problem": "Cannot use sauna",
+    "what_to_do": [
+      "Allow with safety guidelines",
+      "Specify health warnings",
+      "Include time limits",
+      "Add emergency procedures"
+    ]
+  },
+  {
+    "id": 125,
+    "risk_keyword": "gym facility",
+    "risk_name": "Gym Access Issues",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No gym access allowed",
+    "problem": "Cannot use gym",
+    "what_to_do": [
+      "Add gym access rights",
+      "Specify hours of operation",
+      "Include safety rules",
+      "Add equipment responsibility"
+    ]
+  },
+  {
+    "id": 126,
+    "risk_keyword": "gym equipment",
+    "risk_name": "Gym Equipment Use",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "Cannot use gym equipment",
+    "problem": "No access to gym equipment",
+    "what_to_do": [
+      "Allow with proper training",
+      "Specify safety guidelines",
+      "Include supervision requirement",
+      "Add damage liability"
+    ]
+  },
+  {
+    "id": 127,
+    "risk_keyword": "personal trainer",
+    "risk_name": "Trainer Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No personal trainers allowed",
+    "problem": "Cannot bring personal trainer",
+    "what_to_do": [
+      "Allow with registration",
+      "Specify trainer credentials",
+      "Include liability insurance",
+      "Add timing restrictions"
+    ]
+  },
+  {
+    "id": 128,
+    "risk_keyword": "yoga studio",
+    "risk_name": "Yoga Studio Access",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No yoga studio access",
+    "problem": "Cannot use yoga studio",
+    "what_to_do": [
+      "Add yoga studio access",
+      "Specify booking system",
+      "Include cleanup responsibility",
+      "Add equipment care"
+    ]
+  },
+  {
+    "id": 129,
+    "risk_keyword": "meditation room",
+    "risk_name": "Meditation Space",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No meditation room access",
+    "problem": "Cannot use meditation room",
+    "what_to_do": [
+      "Add meditation room access",
+      "Specify quiet hours",
+      "Include booking system",
+      "Add respect for others"
+    ]
+  },
+  {
+    "id": 130,
+    "risk_keyword": "club house",
+    "risk_name": "Club House Access",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No club house access",
+    "problem": "Cannot use club house",
+    "what_to_do": [
+      "Add club house access",
+      "Specify booking procedures",
+      "Include cleanup responsibility",
+      "Add damage liability"
+    ]
+  },
+  {
+    "id": 131,
+    "risk_keyword": "party hall",
+    "risk_name": "Party Hall Usage",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No party hall usage",
+    "problem": "Cannot use party hall",
+    "what_to_do": [
+      "Allow with booking",
+      "Specify advance notice",
+      "Include security deposit",
+      "Add cleanup requirements"
+    ]
+  },
+  {
+    "id": 132,
+    "risk_keyword": "conference room",
+    "risk_name": "Conference Room Access",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No conference room access",
+    "problem": "Cannot use conference room",
+    "what_to_do": [
+      "Add conference room access",
+      "Specify booking system",
+      "Include equipment usage",
+      "Add cleanup responsibility"
+    ]
+  },
+  {
+    "id": 133,
+    "risk_keyword": "library access",
+    "risk_name": "Library Usage",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No library access",
+    "problem": "Cannot use library",
+    "what_to_do": [
+      "Add library access rights",
+      "Specify borrowing rules",
+      "Include quiet policy",
+      "Add book care responsibility"
+    ]
+  },
+  {
+    "id": 134,
+    "risk_keyword": "game room",
+    "risk_name": "Game Room Access",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No game room access",
+    "problem": "Cannot use game room",
+    "what_to_do": [
+      "Add game room access",
+      "Specify hours of operation",
+      "Include equipment care",
+      "Add cleanup responsibility"
+    ]
+  },
+  {
+    "id": 135,
+    "risk_keyword": "tennis court",
+    "risk_name": "Tennis Court Access",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No tennis court access",
+    "problem": "Cannot use tennis court",
+    "what_to_do": [
+      "Add tennis court access",
+      "Specify booking system",
+      "Include equipment responsibility",
+      "Add court maintenance"
+    ]
+  },
+  {
+    "id": 136,
+    "risk_keyword": "badminton court",
+    "risk_name": "Badminton Court Access",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No badminton court access",
+    "problem": "Cannot use badminton court",
+    "what_to_do": [
+      "Add badminton court access",
+      "Specify booking procedures",
+      "Include net setup responsibility",
+      "Add equipment care"
+    ]
+  },
+  {
+    "id": 137,
+    "risk_keyword": "basketball court",
+    "risk_name": "Basketball Court Access",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No basketball court access",
+    "problem": "Cannot use basketball court",
+    "what_to_do": [
+      "Add basketball court access",
+      "Specify hours of operation",
+      "Include ball responsibility",
+      "Add noise considerations"
+    ]
+  },
+  {
+    "id": 138,
+    "risk_keyword": "cricket pitch",
+    "risk_name": "Cricket Area Access",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No cricket playing allowed",
+    "problem": "Cannot play cricket",
+    "what_to_do": [
+      "Allow in designated area",
+      "Specify safety precautions",
+      "Include breakage liability",
+      "Add timing restrictions"
+    ]
+  },
+  {
+    "id": 139,
+    "risk_keyword": "football ground",
+    "risk_name": "Football Area Access",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No football playing allowed",
+    "problem": "Cannot play football",
+    "what_to_do": [
+      "Allow in designated area",
+      "Specify safety rules",
+      "Include equipment responsibility",
+      "Add timing restrictions"
+    ]
+  },
+  {
+    "id": 140,
+    "risk_keyword": "children play area",
+    "risk_name": "Play Area Access",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No children play area access",
+    "problem": "Children cannot play",
+    "what_to_do": [
+      "Add play area access",
+      "Specify supervision requirement",
+      "Include safety rules",
+      "Add cleanup responsibility"
+    ]
+  },
+  {
+    "id": 141,
+    "risk_keyword": "jungle gym",
+    "risk_name": "Play Equipment Access",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No jungle gym access",
+    "problem": "Cannot use play equipment",
+    "what_to_do": [
+      "Add play equipment access",
+      "Specify age restrictions",
+      "Include supervision requirement",
+      "Add safety inspection"
+    ]
+  },
+  {
+    "id": 142,
+    "risk_keyword": "swing set",
+    "risk_name": "Swing Restrictions",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No swing usage allowed",
+    "problem": "Cannot use swings",
+    "what_to_do": [
+      "Allow with supervision",
+      "Specify age limits",
+      "Include proper usage",
+      "Add safety inspection"
+    ]
+  },
+  {
+    "id": 143,
+    "risk_keyword": "slide usage",
+    "risk_name": "Slide Restrictions",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No slide usage allowed",
+    "problem": "Cannot use slide",
+    "what_to_do": [
+      "Allow with supervision",
+      "Specify age limits",
+      "Include proper usage",
+      "Add safety rules"
+    ]
+  },
+  {
+    "id": 144,
+    "risk_keyword": "sand pit",
+    "risk_name": "Sand Play Area",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No sand pit access",
+    "problem": "Cannot use sand pit",
+    "what_to_do": [
+      "Add sand pit access",
+      "Specify cleanup rules",
+      "Include no littering",
+      "Add supervision requirement"
+    ]
+  },
+  {
+    "id": 145,
+    "risk_keyword": "water play area",
+    "risk_name": "Water Play Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No water play allowed",
+    "problem": "Cannot use water play area",
+    "what_to_do": [
+      "Allow with supervision",
+      "Specify safety rules",
+      "Include proper attire",
+      "Add cleanup responsibility"
+    ]
+  },
+  {
+    "id": 146,
+    "risk_keyword": "gardening area",
+    "risk_name": "Gardening Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No gardening allowed",
+    "problem": "Cannot do gardening",
+    "what_to_do": [
+      "Allow in designated area",
+      "Specify plant types",
+      "Include maintenance responsibility",
+      "Add cleanup requirements"
+    ]
+  },
+  {
+    "id": 147,
+    "risk_keyword": "community garden",
+    "risk_name": "Community Garden Access",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No community garden access",
+    "problem": "Cannot use community garden",
+    "what_to_do": [
+      "Add community garden access",
+      "Specify plot allocation",
+      "Include maintenance responsibility",
+      "Add organic gardening"
+    ]
+  },
+  {
+    "id": 148,
+    "risk_keyword": "composting area",
+    "risk_name": "Composting Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No composting allowed",
+    "problem": "Cannot do composting",
+    "what_to_do": [
+      "Allow in designated area",
+      "Specify composting methods",
+      "Include odor control",
+      "Add pest prevention"
+    ]
+  },
+  {
+    "id": 149,
+    "risk_keyword": "rainwater harvesting",
+    "risk_name": "Water Harvesting Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No rainwater harvesting",
+    "problem": "Cannot harvest rainwater",
+    "what_to_do": [
+      "Allow rainwater harvesting",
+      "Specify system requirements",
+      "Include maintenance responsibility",
+      "Add safety measures"
+    ]
+  },
+  {
+    "id": 150,
+    "risk_keyword": "solar panel installation",
+    "risk_name": "Solar Panel Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No solar panels allowed",
+    "problem": "Cannot install solar panels",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional installation",
+      "Include structural integrity",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 151,
+    "risk_keyword": "satellite dish",
+    "risk_name": "Satellite Dish Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No satellite dish allowed",
+    "problem": "Cannot install satellite dish",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify installation location",
+      "Include structural safety",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 152,
+    "risk_keyword": "antenna installation",
+    "risk_name": "Antenna Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No antenna installation",
+    "problem": "Cannot install antenna",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify size limits",
+      "Include safety installation",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 153,
+    "risk_keyword": "cctv installation",
+    "risk_name": "CCTV Restrictions",
+    "risk_type": "privacy",
+    "severity": "medium",
+    "clause_example": "No CCTV cameras allowed",
+    "problem": "Cannot install security cameras",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify camera placement",
+      "Include privacy considerations",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 154,
+    "risk_keyword": "alarm system",
+    "risk_name": "Alarm System Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No alarm system installation",
+    "problem": "Cannot install alarm",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional installation",
+      "Include false alarm prevention",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 155,
+    "risk_keyword": "intercom system",
+    "risk_name": "Intercom Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No intercom installation",
+    "problem": "Cannot install intercom",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional installation",
+      "Include wiring requirements",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 156,
+    "risk_keyword": "doorbell camera",
+    "risk_name": "Smart Doorbell Restrictions",
+    "risk_type": "privacy",
+    "severity": "low",
+    "clause_example": "No smart doorbell allowed",
+    "problem": "Cannot install doorbell camera",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify privacy settings",
+      "Include recording limitations",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 157,
+    "risk_keyword": "smart home devices",
+    "risk_name": "Smart Home Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No smart home devices",
+    "problem": "Cannot use smart devices",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify device types",
+      "Include network security",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 158,
+    "risk_keyword": "home automation",
+    "risk_name": "Automation Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No home automation allowed",
+    "problem": "Cannot automate home systems",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify system types",
+      "Include professional installation",
+      "Add restoration requirement"
+    ]
+  },
+  {
+    "id": 159,
+    "risk_keyword": "electric vehicle charger",
+    "risk_name": "EV Charger Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No EV charger installation",
+    "problem": "Cannot install EV charger",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify electrical capacity",
+      "Include professional installation",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 160,
+    "risk_keyword": "electric scooter charging",
+    "risk_name": "E-scooter Charging Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No e-scooter charging",
+    "problem": "Cannot charge electric scooter",
+    "what_to_do": [
+      "Allow with safety measures",
+      "Specify charging location",
+      "Include fire safety",
+      "Add proper equipment"
+    ]
+  },
+  {
+    "id": 161,
+    "risk_keyword": "bicycle charging",
+    "risk_name": "E-bike Charging Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No e-bike charging",
+    "problem": "Cannot charge electric bike",
+    "what_to_do": [
+      "Allow with safety measures",
+      "Specify charging location",
+      "Include battery safety",
+      "Add proper equipment"
+    ]
+  },
+  {
+    "id": 162,
+    "risk_keyword": "power bank charging",
+    "risk_name": "Power Bank Restrictions",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No power bank charging",
+    "problem": "Cannot charge power banks",
+    "what_to_do": [
+      "Allow with safety precautions",
+      "Specify charging location",
+      "Include quality equipment",
+      "Add no overnight charging"
+    ]
+  },
+  {
+    "id": 163,
+    "risk_keyword": "battery storage",
+    "risk_name": "Battery Storage Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No battery storage",
+    "problem": "Cannot store batteries",
+    "what_to_do": [
+      "Allow with safety measures",
+      "Specify storage location",
+      "Include fire safety",
+      "Add quantity limits"
+    ]
+  },
+  {
+    "id": 164,
+    "risk_keyword": "inverter installation",
+    "risk_name": "Inverter Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No inverter installation",
+    "problem": "Cannot install inverter",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify capacity limits",
+      "Include professional installation",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 165,
+    "risk_keyword": "ups system",
+    "risk_name": "UPS Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No UPS system allowed",
+    "problem": "Cannot install UPS",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify size limits",
+      "Include proper ventilation",
+      "Add safety certification"
+    ]
+  },
+  {
+    "id": 166,
+    "risk_keyword": "stabilizer usage",
+    "risk_name": "Voltage Stabilizer Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No stabilizers allowed",
+    "problem": "Cannot use voltage stabilizer",
+    "what_to_do": [
+      "Allow with safety standards",
+      "Specify capacity limits",
+      "Include professional installation",
+      "Add regular maintenance"
+    ]
+  },
+  {
+    "id": 167,
+    "risk_keyword": "water purifier",
+    "risk_name": "Water Purifier Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No water purifier installation",
+    "problem": "Cannot install water purifier",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify installation location",
+      "Include maintenance responsibility",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 168,
+    "risk_keyword": "ro water system",
+    "risk_name": "RO System Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No RO system allowed",
+    "problem": "Cannot install RO system",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify water drainage",
+      "Include maintenance responsibility",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 169,
+    "risk_keyword": "water softener",
+    "risk_name": "Water Softener Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No water softener allowed",
+    "problem": "Cannot install water softener",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify salt storage",
+      "Include maintenance responsibility",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 170,
+    "risk_keyword": "water heater",
+    "risk_name": "Water Heater Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No water heater installation",
+    "problem": "Cannot install water heater",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify capacity limits",
+      "Include safety installation",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 171,
+    "risk_keyword": "instant geyser",
+    "risk_name": "Instant Geyser Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No instant geyser allowed",
+    "problem": "Cannot use instant geyser",
+    "what_to_do": [
+      "Allow with safety certification",
+      "Specify electrical capacity",
+      "Include safety switch",
+      "Add professional installation"
+    ]
+  },
+  {
+    "id": 172,
+    "risk_keyword": "storage geyser",
+    "risk_name": "Storage Geyser Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No storage geyser allowed",
+    "problem": "Cannot use storage geyser",
+    "what_to_do": [
+      "Allow with safety standards",
+      "Specify capacity limits",
+      "Include pressure valve",
+      "Add regular maintenance"
+    ]
+  },
+  {
+    "id": 173,
+    "risk_keyword": "solar water heater",
+    "risk_name": "Solar Heater Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No solar water heater",
+    "problem": "Cannot install solar heater",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify installation location",
+      "Include structural support",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 174,
+    "risk_keyword": "gas water heater",
+    "risk_name": "Gas Heater Restrictions",
+    "risk_type": "safety",
+    "severity": "high",
+    "clause_example": "No gas water heater",
+    "problem": "Cannot use gas water heater",
+    "what_to_do": [
+      "Allow with safety certification",
+      "Specify ventilation requirements",
+      "Include carbon monoxide detector",
+      "Add professional installation"
+    ]
+  },
+  {
+    "id": 175,
+    "risk_keyword": "exhaust fan",
+    "risk_name": "Exhaust Fan Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No exhaust fan installation",
+    "problem": "Cannot install exhaust fan",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify ventilation requirements",
+      "Include professional installation",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 176,
+    "risk_keyword": "chimney installation",
+    "risk_name": "Kitchen Chimney Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No chimney installation",
+    "problem": "Cannot install kitchen chimney",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify exhaust requirements",
+      "Include professional installation",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 177,
+    "risk_keyword": "ventilation system",
+    "risk_name": "Ventilation Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No ventilation modifications",
+    "problem": "Cannot improve ventilation",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify system requirements",
+      "Include professional installation",
+      "Add restoration requirement"
+    ]
+  },
+  {
+    "id": 178,
+    "risk_keyword": "air conditioning duct",
+    "risk_name": "AC Duct Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No AC duct modifications",
+    "problem": "Cannot modify AC ducts",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional work",
+      "Include efficiency standards",
+      "Add restoration requirement"
+    ]
+  },
+  {
+    "id": 179,
+    "risk_keyword": "central ac system",
+    "risk_name": "Central AC Restrictions",
+    "risk_type": "operational",
+    "severity": "high",
+    "clause_example": "No central AC modifications",
+    "problem": "Cannot modify central AC",
+    "what_to_do": [
+      "Allow with owner permission",
+      "Specify professional work",
+      "Include efficiency standards",
+      "Add restoration requirement"
+    ]
+  },
+  {
+    "id": 180,
+    "risk_keyword": "split ac installation",
+    "risk_name": "Split AC Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No split AC installation",
+    "problem": "Cannot install split AC",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional installation",
+      "Include drainage requirements",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 181,
+    "risk_keyword": "window ac installation",
+    "risk_name": "Window AC Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No window AC allowed",
+    "problem": "Cannot install window AC",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional installation",
+      "Include structural support",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 182,
+    "risk_keyword": "portable ac unit",
+    "risk_name": "Portable AC Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No portable AC allowed",
+    "problem": "Cannot use portable AC",
+    "what_to_do": [
+      "Allow with electrical capacity",
+      "Specify exhaust requirements",
+      "Include energy efficiency",
+      "Add noise considerations"
+    ]
+  },
+  {
+    "id": 183,
+    "risk_keyword": "air cooler",
+    "risk_name": "Air Cooler Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No air cooler allowed",
+    "problem": "Cannot use air cooler",
+    "what_to_do": [
+      "Allow with water drainage",
+      "Specify maintenance responsibility",
+      "Include electrical safety",
+      "Add noise considerations"
+    ]
+  },
+  {
+    "id": 184,
+    "risk_keyword": "ceiling fan installation",
+    "risk_name": "Ceiling Fan Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No ceiling fan installation",
+    "problem": "Cannot install ceiling fan",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional installation",
+      "Include electrical safety",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 185,
+    "risk_keyword": "table fan",
+    "risk_name": "Fan Usage Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No table fans allowed",
+    "problem": "Cannot use table fans",
+    "what_to_do": [
+      "Allow with safety standards",
+      "Specify electrical safety",
+      "Include maintenance responsibility",
+      "Add noise considerations"
+    ]
+  },
+  {
+    "id": 186,
+    "risk_keyword": "exhaust system",
+    "risk_name": "Exhaust System Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No exhaust system modifications",
+    "problem": "Cannot modify exhaust system",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional work",
+      "Include efficiency standards",
+      "Add restoration requirement"
+    ]
+  },
+  {
+    "id": 187,
+    "risk_keyword": "drainage system",
+    "risk_name": "Drainage Modifications",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No drainage modifications",
+    "problem": "Cannot modify drainage",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional work",
+      "Include inspection requirement",
+      "Add restoration if needed"
+    ]
+  },
+  {
+    "id": 188,
+    "risk_keyword": "plumbing modifications",
+    "risk_name": "Plumbing Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No plumbing modifications",
+    "problem": "Cannot modify plumbing",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional plumber",
+      "Include inspection requirement",
+      "Add restoration if needed"
+    ]
+  },
+  {
+    "id": 189,
+    "risk_keyword": "electrical modifications",
+    "risk_name": "Electrical Work Restrictions",
+    "risk_type": "safety",
+    "severity": "high",
+    "clause_example": "No electrical modifications",
+    "problem": "Cannot modify electrical",
+    "what_to_do": [
+      "Allow with licensed electrician",
+      "Specify safety standards",
+      "Include inspection requirement",
+      "Add certification needed"
+    ]
+  },
+  {
+    "id": 190,
+    "risk_keyword": "additional power points",
+    "risk_name": "Power Point Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No additional power points",
+    "problem": "Cannot add power points",
+    "what_to_do": [
+      "Allow with licensed electrician",
+      "Specify safety standards",
+      "Include load calculation",
+      "Add professional installation"
+    ]
+  },
+  {
+    "id": 191,
+    "risk_keyword": "lighting modifications",
+    "risk_name": "Lighting Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No lighting modifications",
+    "problem": "Cannot change lighting",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional work",
+      "Include energy efficiency",
+      "Add restoration requirement"
+    ]
+  },
+  {
+    "id": 192,
+    "risk_keyword": "light fixture installation",
+    "risk_name": "Light Fixture Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No light fixture installation",
+    "problem": "Cannot install light fixtures",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional installation",
+      "Include electrical safety",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 193,
+    "risk_keyword": "chandelier installation",
+    "risk_name": "Chandelier Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No chandelier installation",
+    "problem": "Cannot install chandelier",
+    "what_to_do": [
+      "Allow with structural support",
+      "Specify professional installation",
+      "Include weight limits",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 194,
+    "risk_keyword": "ceiling light",
+    "risk_name": "Ceiling Light Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No ceiling light modifications",
+    "problem": "Cannot modify ceiling lights",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional work",
+      "Include electrical safety",
+      "Add restoration requirement"
+    ]
+  },
+  {
+    "id": 195,
+    "risk_keyword": "wall sconces",
+    "risk_name": "Wall Light Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No wall sconces allowed",
+    "problem": "Cannot install wall lights",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional installation",
+      "Include wiring requirements",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 196,
+    "risk_keyword": "track lighting",
+    "risk_name": "Track Lighting Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No track lighting allowed",
+    "problem": "Cannot install track lighting",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional installation",
+      "Include electrical capacity",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 197,
+    "risk_keyword": "led strip lighting",
+    "risk_name": "LED Strip Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No LED strip lighting",
+    "problem": "Cannot install LED strips",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional installation",
+      "Include electrical safety",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 198,
+    "risk_keyword": "outdoor lighting",
+    "risk_name": "Outdoor Light Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No outdoor lighting allowed",
+    "problem": "Cannot install outdoor lights",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify weatherproof installation",
+      "Include electrical safety",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 199,
+    "risk_keyword": "garden lighting",
+    "risk_name": "Garden Light Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No garden lighting allowed",
+    "problem": "Cannot install garden lights",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify solar options",
+      "Include professional installation",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 200,
+    "risk_keyword": "security lighting",
+    "risk_name": "Security Light Restrictions",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No security lighting allowed",
+    "problem": "Cannot install security lights",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify motion sensor types",
+      "Include professional installation",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 201,
+    "risk_keyword": "emergency lighting",
+    "risk_name": "Emergency Light Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No emergency lighting allowed",
+    "problem": "Cannot install emergency lights",
+    "what_to_do": [
+      "Allow with safety compliance",
+      "Specify battery backup",
+      "Include regular testing",
+      "Add professional installation"
+    ]
+  },
+  {
+    "id": 202,
+    "risk_keyword": "exit sign",
+    "risk_name": "Exit Sign Restrictions",
+    "risk_type": "safety",
+    "severity": "high",
+    "clause_example": "No exit signs allowed",
+    "problem": "Cannot install exit signs",
+    "what_to_do": [
+      "Required for safety compliance",
+      "Specify illuminated signs",
+      "Include battery backup",
+      "Add professional installation"
+    ]
+  },
+  {
+    "id": 203,
+    "risk_keyword": "fire exit signage",
+    "risk_name": "Fire Exit Sign Restrictions",
+    "risk_type": "safety",
+    "severity": "high",
+    "clause_example": "No fire exit signage",
+    "problem": "Cannot install fire exit signs",
+    "what_to_do": [
+      "Required by fire safety laws",
+      "Specify proper placement",
+      "Include illuminated signs",
+      "Add maintenance responsibility"
+    ]
+  },
+  {
+    "id": 204,
+    "risk_keyword": "fire extinguisher",
+    "risk_name": "Fire Extinguisher Restrictions",
+    "risk_type": "safety",
+    "severity": "high",
+    "clause_example": "No fire extinguisher allowed",
+    "problem": "Cannot have fire extinguisher",
+    "what_to_do": [
+      "Required for safety",
+      "Specify proper type",
+      "Include regular inspection",
+      "Add accessibility requirement"
+    ]
+  },
+  {
+    "id": 205,
+    "risk_keyword": "smoke detector",
+    "risk_name": "Smoke Detector Restrictions",
+    "risk_type": "safety",
+    "severity": "high",
+    "clause_example": "No smoke detectors allowed",
+    "problem": "Cannot install smoke detectors",
+    "what_to_do": [
+      "Required for safety",
+      "Specify proper placement",
+      "Include regular testing",
+      "Add battery replacement"
+    ]
+  },
+  {
+    "id": 206,
+    "risk_keyword": "carbon monoxide detector",
+    "risk_name": "CO Detector Restrictions",
+    "risk_type": "safety",
+    "severity": "high",
+    "clause_example": "No CO detectors allowed",
+    "problem": "Cannot install CO detectors",
+    "what_to_do": [
+      "Required with gas appliances",
+      "Specify proper placement",
+      "Include regular testing",
+      "Add battery replacement"
+    ]
+  },
+  {
+    "id": 207,
+    "risk_keyword": "gas leak detector",
+    "risk_name": "Gas Detector Restrictions",
+    "risk_type": "safety",
+    "severity": "high",
+    "clause_example": "No gas leak detectors",
+    "problem": "Cannot install gas detectors",
+    "what_to_do": [
+      "Required with gas supply",
+      "Specify proper type",
+      "Include regular testing",
+      "Add maintenance responsibility"
+    ]
+  },
+  {
+    "id": 208,
+    "risk_keyword": "earthquake safety",
+    "risk_name": "Earthquake Safety Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No earthquake safety measures",
+    "problem": "Cannot implement earthquake safety",
+    "what_to_do": [
+      "Allow safety measures",
+      "Specify structural integrity",
+      "Include professional assessment",
+      "Add safety equipment"
+    ]
+  },
+  {
+    "id": 209,
+    "risk_keyword": "flood protection",
+    "risk_name": "Flood Prevention Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No flood protection measures",
+    "problem": "Cannot implement flood protection",
+    "what_to_do": [
+      "Allow protective measures",
+      "Specify sandbag placement",
+      "Include water barrier installation",
+      "Add cleanup responsibility"
+    ]
+  },
+  {
+    "id": 210,
+    "risk_keyword": "monsoon preparation",
+    "risk_name": "Monsoon Protection Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No monsoon preparations allowed",
+    "problem": "Cannot prepare for monsoon",
+    "what_to_do": [
+      "Allow necessary preparations",
+      "Specify drainage cleaning",
+      "Include leak prevention",
+      "Add structural protection"
+    ]
+  },
+  {
+    "id": 211,
+    "risk_keyword": "waterproofing",
+    "risk_name": "Waterproofing Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No waterproofing allowed",
+    "problem": "Cannot waterproof areas",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional work",
+      "Include warranty requirements",
+      "Add quality materials"
+    ]
+  },
+  {
+    "id": 212,
+    "risk_keyword": "damp proofing",
+    "risk_name": "Damp Proofing Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No damp proofing allowed",
+    "problem": "Cannot treat dampness",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional treatment",
+      "Include cause identification",
+      "Add warranty requirement"
+    ]
+  },
+  {
+    "id": 213,
+    "risk_keyword": "termite treatment",
+    "risk_name": "Termite Control Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No termite treatment allowed",
+    "problem": "Cannot treat termites",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify professional treatment",
+      "Include safety precautions",
+      "Add warranty requirement"
+    ]
+  },
+  {
+    "id": 214,
+    "risk_keyword": "wood treatment",
+    "risk_name": "Wood Preservation Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No wood treatment allowed",
+    "problem": "Cannot treat wood",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify eco-friendly treatments",
+      "Include professional application",
+      "Add safety precautions"
+    ]
+  },
+  {
+    "id": 215,
+    "risk_keyword": "anti-skid treatment",
+    "risk_name": "Anti-skid Restrictions",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No anti-skid treatment",
+    "problem": "Cannot add anti-skid",
+    "what_to_do": [
+      "Allow for safety",
+      "Specify professional application",
+      "Include proper materials",
+      "Add removal if needed"
+    ]
+  },
+  {
+    "id": 216,
+    "risk_keyword": "slip resistant flooring",
+    "risk_name": "Floor Safety Restrictions",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No slip-resistant flooring",
+    "problem": "Cannot improve floor safety",
+    "what_to_do": [
+      "Allow for safety",
+      "Specify proper materials",
+      "Include professional installation",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 217,
+    "risk_keyword": "handrail installation",
+    "risk_name": "Handrail Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No handrails allowed",
+    "problem": "Cannot install handrails",
+    "what_to_do": [
+      "Allow for safety",
+      "Specify proper height",
+      "Include structural support",
+      "Add professional installation"
+    ]
+  },
+  {
+    "id": 218,
+    "risk_keyword": "grab bar installation",
+    "risk_name": "Grab Bar Restrictions",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No grab bars allowed",
+    "problem": "Cannot install grab bars",
+    "what_to_do": [
+      "Allow for safety",
+      "Specify proper placement",
+      "Include structural support",
+      "Add professional installation"
+    ]
+  },
+  {
+    "id": 219,
+    "risk_keyword": "non-slip mats",
+    "risk_name": "Safety Mat Restrictions",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No non-slip mats allowed",
+    "problem": "Cannot use safety mats",
+    "what_to_do": [
+      "Allow for safety",
+      "Specify proper placement",
+      "Include regular cleaning",
+      "Add damage prevention"
+    ]
+  },
+  {
+    "id": 220,
+    "risk_keyword": "child safety gates",
+    "risk_name": "Safety Gate Restrictions",
+    "risk_type": "safety",
+    "severity": "low",
+    "clause_example": "No safety gates allowed",
+    "problem": "Cannot install safety gates",
+    "what_to_do": [
+      "Allow for child safety",
+      "Specify proper installation",
+      "Include structural protection",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 221,
+    "risk_keyword": "window guards",
+    "risk_name": "Window Guard Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No window guards allowed",
+    "problem": "Cannot install window guards",
+    "what_to_do": [
+      "Allow for child safety",
+      "Specify quick-release feature",
+      "Include professional installation",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 222,
+    "risk_keyword": "balcony safety net",
+    "risk_name": "Safety Net Restrictions",
+    "risk_type": "safety",
+    "severity": "medium",
+    "clause_example": "No safety nets allowed",
+    "problem": "Cannot install safety nets",
+    "what_to_do": [
+      "Allow for safety",
+      "Specify UV-resistant material",
+      "Include professional installation",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 223,
+    "risk_keyword": "pigeon net installation",
+    "risk_name": "Pigeon Net Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No pigeon nets allowed",
+    "problem": "Cannot install pigeon nets",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify transparent material",
+      "Include professional installation",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 224,
+    "risk_keyword": "mosquito net installation",
+    "risk_name": "Mosquito Net Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No mosquito nets allowed",
+    "problem": "Cannot install mosquito nets",
+    "what_to_do": [
+      "Allow for health reasons",
+      "Specify proper installation",
+      "Include frame requirements",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 225,
+    "risk_keyword": "window screens",
+    "risk_name": "Window Screen Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No window screens allowed",
+    "problem": "Cannot install window screens",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify removable screens",
+      "Include proper installation",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 226,
+    "risk_keyword": "door screens",
+    "risk_name": "Door Screen Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No door screens allowed",
+    "problem": "Cannot install door screens",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify magnetic closure",
+      "Include proper installation",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 227,
+    "risk_keyword": "fly mesh installation",
+    "risk_name": "Fly Mesh Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No fly mesh allowed",
+    "problem": "Cannot install fly mesh",
+    "what_to_do": [
+      "Allow for hygiene",
+      "Specify removable mesh",
+      "Include proper installation",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 228,
+    "risk_keyword": "curtain installation",
+    "risk_name": "Curtain Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No curtains allowed",
+    "problem": "Cannot install curtains",
+    "what_to_do": [
+      "Allow for privacy",
+      "Specify curtain rods",
+      "Include hole filling on vacating",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 229,
+    "risk_keyword": "blinds installation",
+    "risk_name": "Blinds Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No blinds allowed",
+    "problem": "Cannot install blinds",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify inside mounting",
+      "Include professional installation",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 230,
+    "risk_keyword": "shutters installation",
+    "risk_name": "Shutter Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No shutters allowed",
+    "problem": "Cannot install shutters",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify external mounting",
+      "Include structural support",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 231,
+    "risk_keyword": "roller shades",
+    "risk_name": "Roller Shade Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No roller shades allowed",
+    "problem": "Cannot install roller shades",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify inside mounting",
+      "Include professional installation",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 232,
+    "risk_keyword": "blackout curtains",
+    "risk_name": "Blackout Curtain Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No blackout curtains",
+    "problem": "Cannot install blackout curtains",
+    "what_to_do": [
+      "Allow for light control",
+      "Specify proper installation",
+      "Include rod requirements",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 233,
+    "risk_keyword": "thermal curtains",
+    "risk_name": "Thermal Curtain Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No thermal curtains",
+    "problem": "Cannot install thermal curtains",
+    "what_to_do": [
+      "Allow for energy efficiency",
+      "Specify proper installation",
+      "Include rod requirements",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 234,
+    "risk_keyword": "soundproof curtains",
+    "risk_name": "Soundproofing Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No soundproof curtains",
+    "problem": "Cannot install soundproof curtains",
+    "what_to_do": [
+      "Allow for noise reduction",
+      "Specify proper installation",
+      "Include rod requirements",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 235,
+    "risk_keyword": "room dividers",
+    "risk_name": "Room Divider Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No room dividers allowed",
+    "problem": "Cannot use room dividers",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify freestanding types",
+      "Include no structural changes",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 236,
+    "risk_keyword": "partition walls",
+    "risk_name": "Partition Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No partition walls allowed",
+    "problem": "Cannot install partitions",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify temporary partitions",
+      "Include professional installation",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 237,
+    "risk_keyword": "temporary walls",
+    "risk_name": "Temporary Wall Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No temporary walls allowed",
+    "problem": "Cannot install temporary walls",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify non-structural",
+      "Include professional installation",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 238,
+    "risk_keyword": "sliding doors",
+    "risk_name": "Sliding Door Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No sliding doors allowed",
+    "problem": "Cannot install sliding doors",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify track installation",
+      "Include professional work",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 239,
+    "risk_keyword": "folding doors",
+    "risk_name": "Folding Door Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No folding doors allowed",
+    "problem": "Cannot install folding doors",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify track system",
+      "Include professional installation",
+      "Add removal on vacating"
+    ]
+  },
+  {
+    "id": 240,
+    "risk_keyword": "pocket doors",
+    "risk_name": "Pocket Door Restrictions",
+    "risk_type": "operational",
+    "severity": "high",
+    "clause_example": "No pocket doors allowed",
+    "problem": "Cannot install pocket doors",
+    "what_to_do": [
+      "Allow with structural review",
+      "Specify wall modifications",
+      "Include professional installation",
+      "Add restoration requirement"
+    ]
+  },
+  {
+    "id": 241,
+    "risk_keyword": "barn doors",
+    "risk_name": "Barn Door Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No barn doors allowed",
+    "problem": "Cannot install barn doors",
+    "what_to_do": [
+      "Allow with permission",
+      "Specify track installation",
+      "Include professional work",
+      "Add removal requirement"
+    ]
+  },
+  {
+    "id": 242,
+    "risk_keyword": "french doors",
+    "risk_name": "French Door Restrictions",
+    "risk_type": "operational",
+    "severity": "high",
+    "clause_example": "No French doors allowed",
+    "problem": "Cannot install French doors",
+    "what_to_do": [
+      "Allow with structural changes",
+      "Specify professional installation",
+      "Include building approval",
+      "Add restoration requirement"
+    ]
+  },
+  {
+    "id": 243,
+    "risk_keyword": "patio doors",
+    "risk_name": "Patio Door Restrictions",
+    "risk_type": "operational",
+    "severity": "high",
+    "clause_example": "No patio doors allowed",
+    "problem": "Cannot install patio doors",
+    "what_to_do": [
+      "Allow with structural approval",
+      "Specify professional installation",
+      "Include security features",
+      "Add restoration requirement"
+    ]
+  },
+  {
+    "id": 244,
+    "risk_keyword": "skylight installation",
+    "risk_name": "Skylight Restrictions",
+    "risk_type": "operational",
+    "severity": "high",
+    "clause_example": "No skylights allowed",
+    "problem": "Cannot install skylight",
+    "what_to_do": [
+      "Allow with structural approval",
+      "Specify professional installation",
+      "Include waterproofing warranty",
+      "Add building permission"
+    ]
+  },
+  {
+    "id": 245,
+    "risk_keyword": "roof window",
+    "risk_name": "Roof Window Restrictions",
+    "risk_type": "operational",
+    "severity": "high",
+    "clause_example": "No roof windows allowed",
+    "problem": "Cannot install roof window",
+    "what_to_do": [
+      "Allow with structural approval",
+      "Specify professional installation",
+      "Include waterproofing warranty",
+      "Add building permission"
+    ]
+  },
+  {
+    "id": 246,
+    "risk_keyword": "attic access",
+    "risk_name": "Attic Access Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No attic access allowed",
+    "problem": "Cannot access attic",
+    "what_to_do": [
+      "Allow for maintenance",
+      "Specify safe access method",
+      "Include no storage permission",
+      "Add safety precautions"
+    ]
+  },
+  {
+    "id": 247,
+    "risk_keyword": "basement access",
+    "risk_name": "Basement Access Restrictions",
+    "risk_type": "operational",
+    "severity": "medium",
+    "clause_example": "No basement access allowed",
+    "problem": "Cannot access basement",
+    "what_to_do": [
+      "Allow for maintenance",
+      "Specify safe access",
+      "Include no living space",
+      "Add safety requirements"
+    ]
+  },
+  {
+    "id": 248,
+    "risk_keyword": "storage room",
+    "risk_name": "Storage Room Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No storage room access",
+    "problem": "Cannot use storage room",
+    "what_to_do": [
+      "Allow if included",
+      "Specify access rights",
+      "Include cleanup responsibility",
+      "Add no hazardous materials"
+    ]
+  },
+  {
+    "id": 249,
+    "risk_keyword": "laundry room",
+    "risk_name": "Laundry Room Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No laundry room access",
+    "problem": "Cannot use laundry room",
+    "what_to_do": [
+      "Allow if provided",
+      "Specify usage hours",
+      "Include cleanup responsibility",
+      "Add equipment care"
+    ]
+  },
+  {
+    "id": 250,
+    "risk_keyword": "servant room",
+    "risk_name": "Servant Room Restrictions",
+    "risk_type": "operational",
+    "severity": "low",
+    "clause_example": "No servant room access",
+    "problem": "Cannot use servant room",
+    "what_to_do": [
+      "Allow if included",
+      "Specify usage terms",
+      "Include maintenance responsibility",
+      "Add additional charges if any"
+    ]
+  }
+]

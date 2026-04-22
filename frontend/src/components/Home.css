@@ -1,0 +1,299 @@
+/* Home.css - Updated with Dark Mode Support */
+.home-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode Styles */
+.home-container.dark-mode {
+  background: linear-gradient(135deg, #1a1e2c 0%, #2d3748 100%);
+  color: #e2e8f0;
+}
+
+/* App Bar Dark Mode */
+.home-container.dark-mode .app-bar {
+  background: rgba(26, 32, 44, 0.95) !important;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3) !important;
+  color: #ffffff !important;
+}
+
+/* Make all icons in app bar white in dark mode */
+.home-container.dark-mode .app-bar .MuiSvgIcon-root {
+  color: #ffffff !important;
+}
+
+/* Make all buttons and icon buttons in app bar white */
+.home-container.dark-mode .app-bar .MuiIconButton-root {
+  color: #ffffff !important;
+}
+
+.home-container.dark-mode .app-bar .MuiButton-root {
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* History, profile, theme toggle icons white in dark mode */
+.home-container.dark-mode .app-bar .MuiIconButton-colorInherit {
+  color: #ffffff !important;
+}
+
+/* Logout button in dark mode */
+.home-container.dark-mode .logout-button {
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.home-container.dark-mode .logout-button:hover {
+  background-color: rgba(239, 68, 68, 0.2) !important;
+  color: #ff6b6b !important;
+  border-color: rgba(255, 107, 107, 0.5) !important;
+}
+
+/* Cards Dark Mode */
+.home-container.dark-mode .MuiCard-root {
+  background: #2d3748 !important;
+  color: #e2e8f0 !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Typography Dark Mode */
+.home-container.dark-mode .MuiTypography-root {
+  color: #e2e8f0 !important;
+}
+
+.home-container.dark-mode .MuiTypography-colorTextSecondary {
+  color: #a0aec0 !important;
+}
+
+/* File Upload Area Dark Mode */
+.home-container.dark-mode .file-upload-area {
+  border-color: #63b3ed;
+  background: rgba(66, 153, 225, 0.1);
+}
+
+.home-container.dark-mode .file-upload-area:hover {
+  border-color: #90cdf4;
+  background: rgba(144, 205, 244, 0.15);
+  box-shadow: 0 8px 25px rgba(66, 153, 225, 0.2);
+}
+
+/* File upload icon in dark mode */
+.home-container.dark-mode .file-upload-area .MuiSvgIcon-root {
+  color: #90cdf4 !important;
+}
+
+/* Alert/Notification Dark Mode */
+.home-container.dark-mode .MuiAlert-root {
+  background-color: #2d3748 !important;
+  color: #e2e8f0 !important;
+}
+
+.home-container.dark-mode .MuiAlert-standardSuccess {
+  background-color: #1e3a2f !important;
+  color: #c6f6d5 !important;
+}
+
+.home-container.dark-mode .MuiAlert-standardError {
+  background-color: #3a1e1e !important;
+  color: #fed7d7 !important;
+}
+
+.home-container.dark-mode .MuiAlert-standardInfo {
+  background-color: #1e3a4a !important;
+  color: #bee3f8 !important;
+}
+
+.home-container.dark-mode .MuiAlert-standardWarning {
+  background-color: #3a2e1e !important;
+  color: #feebc8 !important;
+}
+
+/* Menu/Dropdown Dark Mode */
+.home-container.dark-mode .MuiMenu-paper {
+  background-color: #2d3748 !important;
+  color: #e2e8f0 !important;
+}
+
+.home-container.dark-mode .MuiMenuItem-root {
+  color: #e2e8f0 !important;
+}
+
+.home-container.dark-mode .MuiMenuItem-root:hover {
+  background-color: #4a5568 !important;
+}
+
+.home-container.dark-mode .MuiMenuItem-root .MuiSvgIcon-root {
+  color: #e2e8f0 !important;
+}
+
+/* TextField Dark Mode */
+.home-container.dark-mode .MuiTextField-root .MuiOutlinedInput-root {
+  color: #e2e8f0 !important;
+}
+
+.home-container.dark-mode .MuiTextField-root .MuiOutlinedInput-notchedOutline {
+  border-color: #4a5568 !important;
+}
+
+.home-container.dark-mode .MuiTextField-root .MuiInputLabel-root {
+  color: #a0aec0 !important;
+}
+
+/* Chip Dark Mode */
+.home-container.dark-mode .MuiChip-root {
+  background-color: #4a5568 !important;
+  color: #e2e8f0 !important;
+}
+
+/* Paper components in dark mode */
+.home-container.dark-mode .MuiPaper-root:not(.app-bar) {
+  background-color: #2d3748 !important;
+  color: #e2e8f0 !important;
+}
+
+/* Clause and Risk cards in dark mode */
+.home-container.dark-mode .clause-card,
+.home-container.dark-mode .risk-card {
+  background-color: #2d3748 !important;
+  border-color: #4a5568 !important;
+}
+
+.home-container.dark-mode .clause-card:hover,
+.home-container.dark-mode .risk-card:hover {
+  background-color: #3a4458 !important;
+}
+
+/* Risk level chips in dark mode */
+.home-container.dark-mode .MuiChip-label {
+  color: #ffffff !important;
+}
+
+/* Download button in dark mode */
+.home-container.dark-mode .MuiButton-outlined {
+  color: #e2e8f0 !important;
+  border-color: #4a5568 !important;
+}
+
+.home-container.dark-mode .MuiButton-outlined:hover {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border-color: #718096 !important;
+}
+
+.home-container.dark-mode .MuiButton-outlined .MuiSvgIcon-root {
+  color: #e2e8f0 !important;
+}
+
+/* Gauge chart text in dark mode */
+.home-container.dark-mode .gauge-chart text {
+  fill: #e2e8f0 !important;
+}
+
+/* Snackbar in dark mode */
+.home-container.dark-mode .MuiSnackbar-root .MuiAlert-root {
+  background-color: #2d3748 !important;
+  color: #e2e8f0 !important;
+}
+
+/* Light Mode Styles (Default) */
+.app-bar {
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1) !important;
+  color: #2E384D !important;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.app-bar .MuiTypography-root {
+  background: linear-gradient(135deg, #2E5BFF 0%, #00D4AA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.app-bar .MuiSvgIcon-root {
+  color: #2E384D !important;
+}
+
+.app-bar .MuiIconButton-root {
+  color: #2E384D !important;
+}
+
+.app-bar .MuiButton-root {
+  color: #2E384D !important;
+  border-color: rgba(46, 56, 77, 0.3) !important;
+}
+
+.file-upload-area {
+  border: 2px dashed #2E5BFF;
+  border-radius: 16px;
+  padding: 40px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  background: rgba(46, 91, 255, 0.05);
+  cursor: pointer;
+}
+
+.file-upload-area:hover {
+  border-color: #00D4AA;
+  background: rgba(0, 212, 170, 0.05);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(46, 91, 255, 0.15);
+}
+
+.file-upload-area .MuiSvgIcon-root {
+  color: #2E5BFF !important;
+}
+
+/* Dark mode gradient text fix */
+.home-container.dark-mode .gradient-text {
+  background: linear-gradient(135deg, #90cdf4 0%, #9ae6b4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Theme toggle button styles */
+.theme-toggle {
+  transition: transform 0.3s ease !important;
+}
+
+.theme-toggle:hover {
+  transform: rotate(15deg);
+}
+
+/* Logout button styles */
+.logout-button {
+  transition: all 0.3s ease !important;
+}
+
+.logout-button:hover {
+  background-color: rgba(239, 68, 68, 0.1) !important;
+  color: #ef4444 !important;
+}
+
+.home-container.dark-mode .logout-button:hover {
+  background-color: rgba(239, 68, 68, 0.2) !important;
+  color: #ff6b6b !important;
+}
+
+/* Ensure all icons in app bar are properly colored */
+.home-container.dark-mode .app-bar .theme-toggle .MuiSvgIcon-root,
+.home-container.dark-mode .app-bar .MuiIconButton-root .MuiSvgIcon-root,
+.home-container.dark-mode .app-bar .logout-button .MuiSvgIcon-root,
+.home-container.dark-mode .app-bar .MuiButton-startIcon .MuiSvgIcon-root {
+  color: #ffffff !important;
+}
+
+/* History and profile icons specific */
+.home-container.dark-mode .app-bar [class*="History"] .MuiSvgIcon-root,
+.home-container.dark-mode .app-bar [class*="AccountCircle"] .MuiSvgIcon-root,
+.home-container.dark-mode .app-bar [class*="Brightness"] .MuiSvgIcon-root {
+  color: #ffffff !important;
+}
+
+/* Dropdown menu icons in dark mode */
+.home-container.dark-mode .MuiMenuItem-root .MuiSvgIcon-root {
+  color: #e2e8f0 !important;
+}
